@@ -4,10 +4,13 @@ const authenticationKey = "ab40edaaea014a42a5b8ef8ba170aaad";
 const requestBody = `
 <REQUEST>
   <LOGIN authenticationkey="${authenticationKey}"/>
-  <QUERY objecttype="TrainAnnouncement" schemaversion="1.9">
+  <QUERY objecttype="TrainAnnouncement" schemaversion="1.9" limit="10000">
     <FILTER>
     <EQ name="LocationSignature" value="M"/>
     </FILTER>
+  </QUERY>
+  <QUERY objecttype="TrainStation" namespace="rail.infrastructure" schemaversion="1.5">
+    <FILTER></FILTER>
   </QUERY>
 </REQUEST>
 `;
@@ -56,11 +59,17 @@ function printTrains(data) {
   encounteredValues.forEach((item) => {
     if (Array.isArray(item)) {
       item.forEach((station) => {
-        console.log(station.LocationName);
+        const shortName = station.LocationName;
+        const TrainStation = data.RESPONSE.RESULT[1].TrainStation;
+        TrainStation.forEach((station) => {
+          if (station.LocationSignature === shortName) {
+            console.log(`${station.LocationSignature} = ${station.AdvertisedLocationName}`);
+          }
+        })
       });
-    } else if (typeof item === 'string') {
+    } else if (typeof item === "string") {
       console.log(item);
-  }
+    }
   });
 }
 
