@@ -102,13 +102,6 @@ for train_id, locations in train_locations.items():
                     time_difference = abs(time1 - time2)
                     print(f"Time difference between {location1} and {location2} for train {train_id}: {time_difference}")
 
-# Your existing code to save the data to a JSON file remains unchanged
-
-
-
-
-
-
 # Specify a custom directory and filename
 desired_dir = "/Users/erikolofsson/Desktop/JSON_DATA" # Custom directory
 filename = "custom_traffic_data.json" # Custom filename
