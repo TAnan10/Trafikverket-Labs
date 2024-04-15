@@ -13,7 +13,7 @@ def fetch_traffic_data():
     request_body = """
     <REQUEST>
         <LOGIN authenticationkey="d68896103a8141a186a79910d41ce683"/>
-        <QUERY objecttype="TrainAnnouncement" orderby="AdvertisedTimeAtLocation" schemaversion="1.9" limit="1000">
+        <QUERY objecttype="TrainAnnouncement" orderby="AdvertisedTimeAtLocation" schemaversion="1.9" limit="10000">
         <FILTER>
              <OR>
                 <EQ name="LocationSignature" value="M"/>
@@ -24,6 +24,7 @@ def fetch_traffic_data():
                 <EQ name="LocationSignature" value="Hpbg"/>
                 <EQ name="LocationSignature" value="N"/>
                 <EQ name="LocationSignature" value="F"/>
+                <EQ name="LocationSignature" value="Ör"/>
             </OR>
         </FILTER>
         <INCLUDE>LocationSignature</INCLUDE>
