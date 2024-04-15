@@ -13,7 +13,6 @@ full_path = os.path.join(desired_dir, filename)
 with open(full_path, 'r') as file:
     data = json.load(file)
 
-# Step 1: Create a graph
 graph = defaultdict(dict)
 
 for station, trains in data.items():
@@ -24,7 +23,6 @@ for station, trains in data.items():
                 edge_cost_seconds = (datetime.fromisoformat(train['AdvertisedTimeAtLocation']) - datetime.fromisoformat('2024-04-15T00:00:00+02:00')).total_seconds()
                 graph[station][via['LocationName']] = edge_cost_seconds
 
-# Step 2: Dijkstra's algorithm
 def dijkstra(graph, start, end):
     queue = [(0, start, [])]
     seen = set()
@@ -40,7 +38,6 @@ def dijkstra(graph, start, end):
                     heapq.heappush(queue, (cost + edge_cost, next_node, path))
     return float("inf"), None # Return a tuple with None for the path if no path is found
 
-# Step 3: Find the shortest paths
 start_station = 'M'
 end_station = 'Ör'
 shortest_paths = []
@@ -52,7 +49,6 @@ for _ in range(3): # Find top 3 shortest paths
         last_station = path[-1]
         graph.pop(last_station, None) # Use pop() to safely remove the key
 
-# Step 4: Print the results
 for cost, path in shortest_paths:
     if path is None:
         print(f"No path found, Total Time: {cost} seconds")
