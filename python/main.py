@@ -19,7 +19,7 @@ def fetch_traffic_data():
                 <EQ name="LocationSignature" value="M"/>
                 <EQ name="LocationSignature" value="G"/>
                 <EQ name="LocationSignature" value="Lp>"/>
-                <EQ name="LocationSignature" value="Csy"/>
+                <EQ name="LocationSignature" value="Cst"/>
                 <EQ name="LocationSignature" value="My"/>
                 <EQ name="LocationSignature" value="Hpbg"/>
                 <EQ name="LocationSignature" value="N"/>
