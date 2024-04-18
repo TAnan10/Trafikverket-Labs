@@ -26,7 +26,6 @@ fetch("https://api.trafikinfo.trafikverket.se/v2/data.json", {
   .then((response) => response.json())
 
   .then((data) => {
-    console.log(data);
     printTrains(data);
   })
 
@@ -37,8 +36,6 @@ function printTrains(data) {
   const TrainAnnouncement = data.RESPONSE.RESULT[0].TrainAnnouncement;
   const encounteredValues = [];
   const route = [];
-
-  // console.log(TrainAnnouncement);
 
   TrainAnnouncement.forEach((train) => {
     if (train.TrainOwner === "SJ") {
@@ -53,6 +50,9 @@ function printTrains(data) {
         encounteredValues.push(trainViaFromLocation);
         encounteredValues.push(trainToLocation);
       }
+
+      if (!route.includes(trainNumber) && !route.includes(trainFromStation)) {
+      }
     }
   });
 
@@ -63,14 +63,18 @@ function printTrains(data) {
         const TrainStation = data.RESPONSE.RESULT[1].TrainStation;
         TrainStation.forEach((station) => {
           if (station.LocationSignature === shortName) {
-            console.log(`${station.LocationSignature} = ${station.AdvertisedLocationName}`);
+            console.log(
+              `${station.LocationSignature} = ${station.AdvertisedLocationName}`
+            );
           }
-        })
+        });
       });
     } else if (typeof item === "string") {
       console.log(item);
     }
   });
+
+  console.log(encounteredValues.length);
 }
 
 // Print the values in ascending order
