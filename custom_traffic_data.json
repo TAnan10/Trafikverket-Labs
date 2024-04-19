@@ -38,7 +38,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T00:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T00:25:00.000+02:00",
             "AdvertisedTrainIdent": "1156",
             "FromLocation": [
                 {
@@ -75,7 +75,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T00:30:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T00:30:00.000+02:00",
             "AdvertisedTrainIdent": "11740",
             "FromLocation": [
                 {
@@ -107,7 +107,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T00:44:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T00:44:00.000+02:00",
             "AdvertisedTrainIdent": "1491",
             "FromLocation": [
                 {
@@ -139,7 +139,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T00:52:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T00:52:00.000+02:00",
             "AdvertisedTrainIdent": "1292",
             "FromLocation": [
                 {
@@ -166,7 +166,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T00:55:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T00:55:00.000+02:00",
             "AdvertisedTrainIdent": "1160",
             "FromLocation": [
                 {
@@ -203,7 +203,44 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T01:06:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T00:55:00.000+02:00",
+            "AdvertisedTrainIdent": "21298",
+            "FromLocation": [
+                {
+                    "LocationName": "Dk.kh",
+                    "Priority": 1,
+                    "Order": 0
+                }
+            ],
+            "LocationSignature": "M",
+            "ToLocation": [
+                {
+                    "LocationName": "Lu",
+                    "Priority": 1,
+                    "Order": 0
+                }
+            ],
+            "TrainOwner": "SKANE",
+            "ViaFromLocation": [
+                {
+                    "LocationName": "Dk.cph",
+                    "Priority": 1,
+                    "Order": 0
+                },
+                {
+                    "LocationName": "Hie",
+                    "Priority": 2,
+                    "Order": 1
+                },
+                {
+                    "LocationName": "Tri",
+                    "Priority": 3,
+                    "Order": 2
+                }
+            ]
+        },
+        {
+            "AdvertisedTimeAtLocation": "2024-04-17T01:06:00.000+02:00",
             "AdvertisedTrainIdent": "1295",
             "FromLocation": [
                 {
@@ -245,7 +282,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T01:10:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T01:10:00.000+02:00",
             "AdvertisedTrainIdent": "1162",
             "FromLocation": [
                 {
@@ -282,7 +319,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T01:26:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T01:26:00.000+02:00",
             "AdvertisedTrainIdent": "1164",
             "FromLocation": [
                 {
@@ -319,7 +356,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T01:33:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T01:33:00.000+02:00",
             "AdvertisedTrainIdent": "1173",
             "FromLocation": [
                 {
@@ -346,7 +383,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T01:36:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T01:36:00.000+02:00",
             "AdvertisedTrainIdent": "1243",
             "FromLocation": [
                 {
@@ -388,7 +425,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T02:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T02:25:00.000+02:00",
             "AdvertisedTrainIdent": "1172",
             "FromLocation": [
                 {
@@ -425,7 +462,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T02:33:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T02:33:00.000+02:00",
             "AdvertisedTrainIdent": "1181",
             "FromLocation": [
                 {
@@ -452,7 +489,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T03:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T03:25:00.000+02:00",
             "AdvertisedTrainIdent": "1180",
             "FromLocation": [
                 {
@@ -489,7 +526,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T03:33:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T03:33:00.000+02:00",
             "AdvertisedTrainIdent": "1189",
             "FromLocation": [
                 {
@@ -516,7 +553,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T03:59:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T03:59:00.000+02:00",
             "AdvertisedTrainIdent": "346",
             "FromLocation": [
                 {
@@ -543,7 +580,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T04:21:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T04:21:00.000+02:00",
             "AdvertisedTrainIdent": "346",
             "FromLocation": [
                 {
@@ -570,7 +607,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T04:22:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T04:22:00.000+02:00",
             "AdvertisedTrainIdent": "1202",
             "FromLocation": [
                 {
@@ -597,7 +634,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T04:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T04:25:00.000+02:00",
             "AdvertisedTrainIdent": "1188",
             "FromLocation": [
                 {
@@ -634,7 +671,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T04:33:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T04:33:00.000+02:00",
             "AdvertisedTrainIdent": "1005",
             "FromLocation": [
                 {
@@ -661,7 +698,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T04:49:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T04:49:00.000+02:00",
             "AdvertisedTrainIdent": "11402",
             "FromLocation": [
                 {
@@ -688,7 +725,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:07:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:07:00.000+02:00",
             "AdvertisedTrainIdent": "1752",
             "FromLocation": [
                 {
@@ -715,7 +752,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:10:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:10:00.000+02:00",
             "AdvertisedTrainIdent": "11002",
             "FromLocation": [
                 {
@@ -742,7 +779,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:14:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:14:00.000+02:00",
             "AdvertisedTrainIdent": "1452",
             "FromLocation": [
                 {
@@ -769,7 +806,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:19:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:19:00.000+02:00",
             "AdvertisedTrainIdent": "1506",
             "FromLocation": [
                 {
@@ -811,7 +848,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:22:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:22:00.000+02:00",
             "AdvertisedTrainIdent": "1204",
             "FromLocation": [
                 {
@@ -838,7 +875,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:25:00.000+02:00",
             "AdvertisedTrainIdent": "1004",
             "FromLocation": [
                 {
@@ -875,7 +912,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:33:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:33:00.000+02:00",
             "AdvertisedTrainIdent": "1013",
             "FromLocation": [
                 {
@@ -902,7 +939,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:36:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:36:00.000+02:00",
             "AdvertisedTrainIdent": "1203",
             "FromLocation": [
                 {
@@ -944,7 +981,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:37:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:37:00.000+02:00",
             "AdvertisedTrainIdent": "1702",
             "FromLocation": [
                 {
@@ -986,7 +1023,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:39:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:39:00.000+02:00",
             "AdvertisedTrainIdent": "1507",
             "FromLocation": [
                 {
@@ -1028,7 +1065,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:44:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:44:00.000+02:00",
             "AdvertisedTrainIdent": "1404",
             "FromLocation": [
                 {
@@ -1055,7 +1092,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:44:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:44:00.000+02:00",
             "AdvertisedTrainIdent": "1453",
             "FromLocation": [
                 {
@@ -1087,7 +1124,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:48:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:48:00.000+02:00",
             "AdvertisedTrainIdent": "1015",
             "FromLocation": [
                 {
@@ -1119,7 +1156,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:49:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:49:00.000+02:00",
             "AdvertisedTrainIdent": "11404",
             "FromLocation": [
                 {
@@ -1146,7 +1183,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:51:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:51:00.000+02:00",
             "AdvertisedTrainIdent": "1703",
             "FromLocation": [
                 {
@@ -1188,7 +1225,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:52:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:52:00.000+02:00",
             "AdvertisedTrainIdent": "1254",
             "FromLocation": [
                 {
@@ -1230,7 +1267,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:55:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:55:00.000+02:00",
             "AdvertisedTrainIdent": "1008",
             "FromLocation": [
                 {
@@ -1267,7 +1304,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:06:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:06:00.000+02:00",
             "AdvertisedTrainIdent": "1257",
             "FromLocation": [
                 {
@@ -1309,7 +1346,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:07:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:07:00.000+02:00",
             "AdvertisedTrainIdent": "1754",
             "FromLocation": [
                 {
@@ -1351,7 +1388,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:09:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:09:00.000+02:00",
             "AdvertisedTrainIdent": "11403",
             "FromLocation": [
                 {
@@ -1393,7 +1430,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:10:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:10:00.000+02:00",
             "AdvertisedTrainIdent": "1010",
             "FromLocation": [
                 {
@@ -1430,7 +1467,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:11:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:11:00.000+02:00",
             "AdvertisedTrainIdent": "1453",
             "FromLocation": [
                 {
@@ -1472,7 +1509,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:14:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:14:00.000+02:00",
             "AdvertisedTrainIdent": "1403",
             "FromLocation": [
                 {
@@ -1504,7 +1541,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:14:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:14:00.000+02:00",
             "AdvertisedTrainIdent": "1454",
             "FromLocation": [
                 {
@@ -1546,7 +1583,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:18:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:18:00.000+02:00",
             "AdvertisedTrainIdent": "1019",
             "FromLocation": [
                 {
@@ -1583,7 +1620,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:19:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:19:00.000+02:00",
             "AdvertisedTrainIdent": "1510",
             "FromLocation": [
                 {
@@ -1625,7 +1662,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:21:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:21:00.000+02:00",
             "AdvertisedTrainIdent": "1753",
             "FromLocation": [
                 {
@@ -1667,7 +1704,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:22:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:22:00.000+02:00",
             "AdvertisedTrainIdent": "1206",
             "FromLocation": [
                 {
@@ -1694,7 +1731,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:25:00.000+02:00",
             "AdvertisedTrainIdent": "1012",
             "FromLocation": [
                 {
@@ -1731,7 +1768,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:29:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:29:00.000+02:00",
             "AdvertisedTrainIdent": "11900",
             "FromLocation": [
                 {
@@ -1758,7 +1795,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:29:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:29:00.000+02:00",
             "AdvertisedTrainIdent": "11901",
             "FromLocation": [
                 {
@@ -1800,7 +1837,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:33:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:33:00.000+02:00",
             "AdvertisedTrainIdent": "1021",
             "FromLocation": [
                 {
@@ -1837,7 +1874,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:36:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:36:00.000+02:00",
             "AdvertisedTrainIdent": "1205",
             "FromLocation": [
                 {
@@ -1879,7 +1916,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:37:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:37:00.000+02:00",
             "AdvertisedTrainIdent": "1704",
             "FromLocation": [
                 {
@@ -1921,7 +1958,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:39:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:39:00.000+02:00",
             "AdvertisedTrainIdent": "1511",
             "FromLocation": [
                 {
@@ -1963,7 +2000,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:41:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:41:00.000+02:00",
             "AdvertisedTrainIdent": "1403",
             "FromLocation": [
                 {
@@ -2005,7 +2042,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:44:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:44:00.000+02:00",
             "AdvertisedTrainIdent": "1406",
             "FromLocation": [
                 {
@@ -2047,7 +2084,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:44:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:44:00.000+02:00",
             "AdvertisedTrainIdent": "1455",
             "FromLocation": [
                 {
@@ -2079,7 +2116,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:48:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:48:00.000+02:00",
             "AdvertisedTrainIdent": "1023",
             "FromLocation": [
                 {
@@ -2121,7 +2158,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:49:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:49:00.000+02:00",
             "AdvertisedTrainIdent": "11406",
             "FromLocation": [
                 {
@@ -2148,7 +2185,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:51:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:51:00.000+02:00",
             "AdvertisedTrainIdent": "1705",
             "FromLocation": [
                 {
@@ -2190,7 +2227,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:52:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:52:00.000+02:00",
             "AdvertisedTrainIdent": "1256",
             "FromLocation": [
                 {
@@ -2232,7 +2269,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:55:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:55:00.000+02:00",
             "AdvertisedTrainIdent": "1016",
             "FromLocation": [
                 {
@@ -2269,7 +2306,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:57:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:57:00.000+02:00",
             "AdvertisedTrainIdent": "1323",
             "FromLocation": [
                 {
@@ -2311,7 +2348,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:02:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:02:00.000+02:00",
             "AdvertisedTrainIdent": "1998",
             "FromLocation": [
                 {
@@ -2338,7 +2375,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:03:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:03:00.000+02:00",
             "AdvertisedTrainIdent": "1025",
             "FromLocation": [
                 {
@@ -2380,7 +2417,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:06:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:06:00.000+02:00",
             "AdvertisedTrainIdent": "1259",
             "FromLocation": [
                 {
@@ -2422,7 +2459,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:07:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:07:00.000+02:00",
             "AdvertisedTrainIdent": "1756",
             "FromLocation": [
                 {
@@ -2464,7 +2501,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:09:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:09:00.000+02:00",
             "AdvertisedTrainIdent": "11405",
             "FromLocation": [
                 {
@@ -2506,7 +2543,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:10:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:10:00.000+02:00",
             "AdvertisedTrainIdent": "1018",
             "FromLocation": [
                 {
@@ -2543,7 +2580,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:11:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:11:00.000+02:00",
             "AdvertisedTrainIdent": "1455",
             "FromLocation": [
                 {
@@ -2585,7 +2622,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:14:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:14:00.000+02:00",
             "AdvertisedTrainIdent": "1405",
             "FromLocation": [
                 {
@@ -2617,7 +2654,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:14:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:14:00.000+02:00",
             "AdvertisedTrainIdent": "1456",
             "FromLocation": [
                 {
@@ -2659,7 +2696,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:18:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:18:00.000+02:00",
             "AdvertisedTrainIdent": "1027",
             "FromLocation": [
                 {
@@ -2696,7 +2733,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:19:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:19:00.000+02:00",
             "AdvertisedTrainIdent": "1514",
             "FromLocation": [
                 {
@@ -2738,7 +2775,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:21:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:21:00.000+02:00",
             "AdvertisedTrainIdent": "1755",
             "FromLocation": [
                 {
@@ -2780,7 +2817,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:22:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:22:00.000+02:00",
             "AdvertisedTrainIdent": "1208",
             "FromLocation": [
                 {
@@ -2807,7 +2844,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:25:00.000+02:00",
             "AdvertisedTrainIdent": "1020",
             "FromLocation": [
                 {
@@ -2844,7 +2881,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:26:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:26:00.000+02:00",
             "AdvertisedTrainIdent": "1325",
             "FromLocation": [
                 {
@@ -2886,7 +2923,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:29:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:29:00.000+02:00",
             "AdvertisedTrainIdent": "11902",
             "FromLocation": [
                 {
@@ -2913,7 +2950,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:29:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:29:00.000+02:00",
             "AdvertisedTrainIdent": "11903",
             "FromLocation": [
                 {
@@ -2955,34 +2992,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:30:00.000+02:00",
-            "AdvertisedTrainIdent": "300",
-            "FromLocation": [
-                {
-                    "LocationName": "De.ber",
-                    "Priority": 1,
-                    "Order": 0
-                }
-            ],
-            "LocationSignature": "M",
-            "ToLocation": [
-                {
-                    "LocationName": "M",
-                    "Priority": 1,
-                    "Order": 0
-                }
-            ],
-            "TrainOwner": "SN\u00c4LL",
-            "ViaFromLocation": [
-                {
-                    "LocationName": "De.ham",
-                    "Priority": 1,
-                    "Order": 0
-                }
-            ]
-        },
-        {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:32:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:32:00.000+02:00",
             "AdvertisedTrainIdent": "11316",
             "FromLocation": [
                 {
@@ -3009,7 +3019,34 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:33:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:32:00.000+02:00",
+            "AdvertisedTrainIdent": "300",
+            "FromLocation": [
+                {
+                    "LocationName": "De.ber",
+                    "Priority": 1,
+                    "Order": 0
+                }
+            ],
+            "LocationSignature": "M",
+            "ToLocation": [
+                {
+                    "LocationName": "M",
+                    "Priority": 1,
+                    "Order": 0
+                }
+            ],
+            "TrainOwner": "SN\u00c4LL",
+            "ViaFromLocation": [
+                {
+                    "LocationName": "De.ham",
+                    "Priority": 1,
+                    "Order": 0
+                }
+            ]
+        },
+        {
+            "AdvertisedTimeAtLocation": "2024-04-17T07:33:00.000+02:00",
             "AdvertisedTrainIdent": "1029",
             "FromLocation": [
                 {
@@ -3051,7 +3088,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:36:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:36:00.000+02:00",
             "AdvertisedTrainIdent": "1207",
             "FromLocation": [
                 {
@@ -3093,7 +3130,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:37:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:37:00.000+02:00",
             "AdvertisedTrainIdent": "1706",
             "FromLocation": [
                 {
@@ -3135,7 +3172,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:39:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:39:00.000+02:00",
             "AdvertisedTrainIdent": "1515",
             "FromLocation": [
                 {
@@ -3177,7 +3214,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:40:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:40:00.000+02:00",
             "AdvertisedTrainIdent": "1022",
             "FromLocation": [
                 {
@@ -3214,7 +3251,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:41:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:41:00.000+02:00",
             "AdvertisedTrainIdent": "1405",
             "FromLocation": [
                 {
@@ -3256,7 +3293,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:44:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:44:00.000+02:00",
             "AdvertisedTrainIdent": "1408",
             "FromLocation": [
                 {
@@ -3298,7 +3335,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:44:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:44:00.000+02:00",
             "AdvertisedTrainIdent": "1457",
             "FromLocation": [
                 {
@@ -3330,7 +3367,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:44:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:44:00.000+02:00",
             "AdvertisedTrainIdent": "1990",
             "FromLocation": [
                 {
@@ -3362,7 +3399,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:48:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:48:00.000+02:00",
             "AdvertisedTrainIdent": "1031",
             "FromLocation": [
                 {
@@ -3404,7 +3441,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:49:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:49:00.000+02:00",
             "AdvertisedTrainIdent": "11408",
             "FromLocation": [
                 {
@@ -3431,7 +3468,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:51:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:51:00.000+02:00",
             "AdvertisedTrainIdent": "1707",
             "FromLocation": [
                 {
@@ -3473,7 +3510,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:52:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:52:00.000+02:00",
             "AdvertisedTrainIdent": "1258",
             "FromLocation": [
                 {
@@ -3515,7 +3552,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:55:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:55:00.000+02:00",
             "AdvertisedTrainIdent": "1024",
             "FromLocation": [
                 {
@@ -3552,7 +3589,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:57:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:57:00.000+02:00",
             "AdvertisedTrainIdent": "1329",
             "FromLocation": [
                 {
@@ -3594,7 +3631,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:02:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:02:00.000+02:00",
             "AdvertisedTrainIdent": "1318",
             "FromLocation": [
                 {
@@ -3631,7 +3668,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:03:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:03:00.000+02:00",
             "AdvertisedTrainIdent": "1033",
             "FromLocation": [
                 {
@@ -3673,7 +3710,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:06:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:06:00.000+02:00",
             "AdvertisedTrainIdent": "1261",
             "FromLocation": [
                 {
@@ -3715,7 +3752,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:07:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:07:00.000+02:00",
             "AdvertisedTrainIdent": "1758",
             "FromLocation": [
                 {
@@ -3757,7 +3794,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:09:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:09:00.000+02:00",
             "AdvertisedTrainIdent": "11407",
             "FromLocation": [
                 {
@@ -3799,7 +3836,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:10:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:10:00.000+02:00",
             "AdvertisedTrainIdent": "1026",
             "FromLocation": [
                 {
@@ -3836,7 +3873,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:11:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:11:00.000+02:00",
             "AdvertisedTrainIdent": "1457",
             "FromLocation": [
                 {
@@ -3878,7 +3915,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:14:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:14:00.000+02:00",
             "AdvertisedTrainIdent": "1407",
             "FromLocation": [
                 {
@@ -3910,7 +3947,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:14:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:14:00.000+02:00",
             "AdvertisedTrainIdent": "1458",
             "FromLocation": [
                 {
@@ -3952,7 +3989,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:18:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:18:00.000+02:00",
             "AdvertisedTrainIdent": "1035",
             "FromLocation": [
                 {
@@ -3989,7 +4026,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:19:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:19:00.000+02:00",
             "AdvertisedTrainIdent": "1518",
             "FromLocation": [
                 {
@@ -4031,7 +4068,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:21:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:21:00.000+02:00",
             "AdvertisedTrainIdent": "1757",
             "FromLocation": [
                 {
@@ -4073,7 +4110,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:22:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:22:00.000+02:00",
             "AdvertisedTrainIdent": "1210",
             "FromLocation": [
                 {
@@ -4100,7 +4137,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:25:00.000+02:00",
             "AdvertisedTrainIdent": "1028",
             "FromLocation": [
                 {
@@ -4137,7 +4174,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:26:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:26:00.000+02:00",
             "AdvertisedTrainIdent": "1331",
             "FromLocation": [
                 {
@@ -4179,7 +4216,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:29:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:29:00.000+02:00",
             "AdvertisedTrainIdent": "11904",
             "FromLocation": [
                 {
@@ -4206,7 +4243,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:29:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:29:00.000+02:00",
             "AdvertisedTrainIdent": "11905",
             "FromLocation": [
                 {
@@ -4248,7 +4285,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:32:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:32:00.000+02:00",
             "AdvertisedTrainIdent": "1322",
             "FromLocation": [
                 {
@@ -4285,7 +4322,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:33:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:33:00.000+02:00",
             "AdvertisedTrainIdent": "1037",
             "FromLocation": [
                 {
@@ -4327,7 +4364,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:36:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:36:00.000+02:00",
             "AdvertisedTrainIdent": "1209",
             "FromLocation": [
                 {
@@ -4369,7 +4406,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:37:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:37:00.000+02:00",
             "AdvertisedTrainIdent": "1708",
             "FromLocation": [
                 {
@@ -4411,7 +4448,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:39:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:39:00.000+02:00",
             "AdvertisedTrainIdent": "1519",
             "FromLocation": [
                 {
@@ -4453,7 +4490,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:40:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:40:00.000+02:00",
             "AdvertisedTrainIdent": "1030",
             "FromLocation": [
                 {
@@ -4490,7 +4527,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:41:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:41:00.000+02:00",
             "AdvertisedTrainIdent": "1407",
             "FromLocation": [
                 {
@@ -4532,7 +4569,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:44:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:44:00.000+02:00",
             "AdvertisedTrainIdent": "1410",
             "FromLocation": [
                 {
@@ -4574,7 +4611,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:44:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:44:00.000+02:00",
             "AdvertisedTrainIdent": "1459",
             "FromLocation": [
                 {
@@ -4606,7 +4643,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:48:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:48:00.000+02:00",
             "AdvertisedTrainIdent": "1039",
             "FromLocation": [
                 {
@@ -4648,7 +4685,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:49:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:49:00.000+02:00",
             "AdvertisedTrainIdent": "11410",
             "FromLocation": [
                 {
@@ -4675,7 +4712,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:51:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:51:00.000+02:00",
             "AdvertisedTrainIdent": "1709",
             "FromLocation": [
                 {
@@ -4717,7 +4754,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:52:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:52:00.000+02:00",
             "AdvertisedTrainIdent": "1260",
             "FromLocation": [
                 {
@@ -4759,7 +4796,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:55:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:55:00.000+02:00",
             "AdvertisedTrainIdent": "1032",
             "FromLocation": [
                 {
@@ -4796,7 +4833,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:57:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:57:00.000+02:00",
             "AdvertisedTrainIdent": "1997",
             "FromLocation": [
                 {
@@ -4838,7 +4875,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:57:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:57:00.000+02:00",
             "AdvertisedTrainIdent": "481",
             "FromLocation": [
                 {
@@ -4866,11 +4903,16 @@
                     "LocationName": "Hb",
                     "Priority": 2,
                     "Order": 1
+                },
+                {
+                    "LocationName": "Lu",
+                    "Priority": 3,
+                    "Order": 2
                 }
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:02:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:02:00.000+02:00",
             "AdvertisedTrainIdent": "1324",
             "FromLocation": [
                 {
@@ -4907,7 +4949,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:03:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:03:00.000+02:00",
             "AdvertisedTrainIdent": "1041",
             "FromLocation": [
                 {
@@ -4949,7 +4991,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:06:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:06:00.000+02:00",
             "AdvertisedTrainIdent": "1263",
             "FromLocation": [
                 {
@@ -4991,7 +5033,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:07:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:07:00.000+02:00",
             "AdvertisedTrainIdent": "1760",
             "FromLocation": [
                 {
@@ -5033,7 +5075,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:09:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:09:00.000+02:00",
             "AdvertisedTrainIdent": "11409",
             "FromLocation": [
                 {
@@ -5075,7 +5117,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:10:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:10:00.000+02:00",
             "AdvertisedTrainIdent": "1034",
             "FromLocation": [
                 {
@@ -5112,7 +5154,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:11:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:11:00.000+02:00",
             "AdvertisedTrainIdent": "1459",
             "FromLocation": [
                 {
@@ -5154,7 +5196,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:14:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:14:00.000+02:00",
             "AdvertisedTrainIdent": "1409",
             "FromLocation": [
                 {
@@ -5186,7 +5228,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:14:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:14:00.000+02:00",
             "AdvertisedTrainIdent": "1460",
             "FromLocation": [
                 {
@@ -5228,7 +5270,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:18:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:18:00.000+02:00",
             "AdvertisedTrainIdent": "1043",
             "FromLocation": [
                 {
@@ -5265,7 +5307,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:19:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:19:00.000+02:00",
             "AdvertisedTrainIdent": "1522",
             "FromLocation": [
                 {
@@ -5307,7 +5349,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:21:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:21:00.000+02:00",
             "AdvertisedTrainIdent": "1759",
             "FromLocation": [
                 {
@@ -5349,7 +5391,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:22:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:22:00.000+02:00",
             "AdvertisedTrainIdent": "1212",
             "FromLocation": [
                 {
@@ -5376,7 +5418,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:25:00.000+02:00",
             "AdvertisedTrainIdent": "1036",
             "FromLocation": [
                 {
@@ -5413,7 +5455,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:33:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:33:00.000+02:00",
             "AdvertisedTrainIdent": "1045",
             "FromLocation": [
                 {
@@ -5455,7 +5497,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:36:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:36:00.000+02:00",
             "AdvertisedTrainIdent": "1211",
             "FromLocation": [
                 {
@@ -5497,7 +5539,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:37:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:37:00.000+02:00",
             "AdvertisedTrainIdent": "1710",
             "FromLocation": [
                 {
@@ -5539,7 +5581,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:39:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:39:00.000+02:00",
             "AdvertisedTrainIdent": "1523",
             "FromLocation": [
                 {
@@ -5581,7 +5623,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:40:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:40:00.000+02:00",
             "AdvertisedTrainIdent": "1038",
             "FromLocation": [
                 {
@@ -5618,7 +5660,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:41:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:41:00.000+02:00",
             "AdvertisedTrainIdent": "1409",
             "FromLocation": [
                 {
@@ -5660,7 +5702,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:44:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:44:00.000+02:00",
             "AdvertisedTrainIdent": "1412",
             "FromLocation": [
                 {
@@ -5702,7 +5744,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:44:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:44:00.000+02:00",
             "AdvertisedTrainIdent": "1461",
             "FromLocation": [
                 {
@@ -5730,75 +5772,6 @@
                     "LocationName": "Lma",
                     "Priority": 2,
                     "Order": 1
-                }
-            ]
-        },
-        {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:48:00.000+02:00",
-            "AdvertisedTrainIdent": "1047",
-            "FromLocation": [
-                {
-                    "LocationName": "G",
-                    "Priority": 1,
-                    "Order": 0
-                }
-            ],
-            "LocationSignature": "M",
-            "ToLocation": [
-                {
-                    "LocationName": "Dk.kh",
-                    "Priority": 1,
-                    "Order": 0
-                }
-            ],
-            "TrainOwner": "\u00d6-T\u00c5G",
-            "ViaFromLocation": [
-                {
-                    "LocationName": "Mdn",
-                    "Priority": 1,
-                    "Order": 0
-                },
-                {
-                    "LocationName": "Kb",
-                    "Priority": 2,
-                    "Order": 1
-                },
-                {
-                    "LocationName": "Vb",
-                    "Priority": 3,
-                    "Order": 2
-                },
-                {
-                    "LocationName": "Fabp",
-                    "Priority": 4,
-                    "Order": 3
-                }
-            ]
-        },
-        {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:49:00.000+02:00",
-            "AdvertisedTrainIdent": "11412",
-            "FromLocation": [
-                {
-                    "LocationName": "Hie",
-                    "Priority": 1,
-                    "Order": 0
-                }
-            ],
-            "LocationSignature": "M",
-            "ToLocation": [
-                {
-                    "LocationName": "\u00c5p",
-                    "Priority": 1,
-                    "Order": 0
-                }
-            ],
-            "TrainOwner": "SKANE",
-            "ViaFromLocation": [
-                {
-                    "LocationName": "Tri",
-                    "Priority": 1,
-                    "Order": 0
                 }
             ]
         }
@@ -5852,7 +5825,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:45:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:45:00.000+02:00",
             "AdvertisedTrainIdent": "8201",
             "FromLocation": [
                 {
@@ -5894,7 +5867,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:46:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:46:00.000+02:00",
             "AdvertisedTrainIdent": "119",
             "FromLocation": [
                 {
@@ -5921,7 +5894,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:48:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:48:00.000+02:00",
             "AdvertisedTrainIdent": "8234",
             "FromLocation": [
                 {
@@ -5953,7 +5926,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:49:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:49:00.000+02:00",
             "AdvertisedTrainIdent": "157",
             "FromLocation": [
                 {
@@ -5995,7 +5968,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:50:00.000+02:00",
             "AdvertisedTrainIdent": "3332",
             "FromLocation": [
                 {
@@ -6022,7 +5995,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:59:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:59:00.000+02:00",
             "AdvertisedTrainIdent": "420",
             "FromLocation": [
                 {
@@ -6064,7 +6037,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:12:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:12:00.000+02:00",
             "AdvertisedTrainIdent": "7202",
             "FromLocation": [
                 {
@@ -6101,7 +6074,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:15:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:15:00.000+02:00",
             "AdvertisedTrainIdent": "8181",
             "FromLocation": [
                 {
@@ -6143,7 +6116,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:29:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:29:00.000+02:00",
             "AdvertisedTrainIdent": "621",
             "FromLocation": [
                 {
@@ -6175,7 +6148,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:46:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:46:00.000+02:00",
             "AdvertisedTrainIdent": "8231",
             "FromLocation": [
                 {
@@ -6217,7 +6190,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:50:00.000+02:00",
             "AdvertisedTrainIdent": "159",
             "FromLocation": [
                 {
@@ -6259,7 +6232,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:54:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:54:00.000+02:00",
             "AdvertisedTrainIdent": "462",
             "FromLocation": [
                 {
@@ -6296,7 +6269,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:59:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:59:00.000+02:00",
             "AdvertisedTrainIdent": "8203",
             "FromLocation": [
                 {
@@ -6328,7 +6301,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:14:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:14:00.000+02:00",
             "AdvertisedTrainIdent": "622",
             "FromLocation": [
                 {
@@ -6360,7 +6333,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:18:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:18:00.000+02:00",
             "AdvertisedTrainIdent": "121",
             "FromLocation": [
                 {
@@ -6402,7 +6375,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:18:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:18:00.000+02:00",
             "AdvertisedTrainIdent": "164",
             "FromLocation": [
                 {
@@ -6444,7 +6417,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:21:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:21:00.000+02:00",
             "AdvertisedTrainIdent": "8205",
             "FromLocation": [
                 {
@@ -6476,7 +6449,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:39:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:39:00.000+02:00",
             "AdvertisedTrainIdent": "8163",
             "FromLocation": [
                 {
@@ -6518,7 +6491,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:50:00.000+02:00",
             "AdvertisedTrainIdent": "161",
             "FromLocation": [
                 {
@@ -6560,7 +6533,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:04:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:04:00.000+02:00",
             "AdvertisedTrainIdent": "8207",
             "FromLocation": [
                 {
@@ -6592,7 +6565,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:11:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:11:00.000+02:00",
             "AdvertisedTrainIdent": "623",
             "FromLocation": [
                 {
@@ -6624,7 +6597,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:18:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:18:00.000+02:00",
             "AdvertisedTrainIdent": "166",
             "FromLocation": [
                 {
@@ -6666,7 +6639,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:33:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:33:00.000+02:00",
             "AdvertisedTrainIdent": "123",
             "FromLocation": [
                 {
@@ -6708,7 +6681,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:41:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:41:00.000+02:00",
             "AdvertisedTrainIdent": "626",
             "FromLocation": [
                 {
@@ -6743,53 +6716,11 @@
                     "Order": 2
                 }
             ]
-        },
-        {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:50:00.000+02:00",
-            "AdvertisedTrainIdent": "163",
-            "FromLocation": [
-                {
-                    "LocationName": "Cst",
-                    "Priority": 1,
-                    "Order": 0
-                }
-            ],
-            "LocationSignature": "Hpbg",
-            "ToLocation": [
-                {
-                    "LocationName": "G",
-                    "Priority": 1,
-                    "Order": 0
-                }
-            ],
-            "TrainOwner": "SJ",
-            "ViaFromLocation": [
-                {
-                    "LocationName": "Sub",
-                    "Priority": 3,
-                    "Order": 0
-                },
-                {
-                    "LocationName": "B\u00e5l",
-                    "Priority": 4,
-                    "Order": 1
-                },
-                {
-                    "LocationName": "V\u00e5",
-                    "Priority": 1,
-                    "Order": 2
-                },
-                {
-                    "LocationName": "\u00d6r",
-                    "Priority": 2,
-                    "Order": 3
-                }
-            ]
         }
     ],
     "G": [
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T00:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T00:35:00.000+02:00",
             "AdvertisedTrainIdent": "3693",
             "FromLocation": [
                 {
@@ -6816,7 +6747,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T00:55:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T00:55:00.000+02:00",
             "AdvertisedTrainIdent": "3593",
             "FromLocation": [
                 {
@@ -6843,7 +6774,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T01:30:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T01:30:00.000+02:00",
             "AdvertisedTrainIdent": "3004",
             "FromLocation": [
                 {
@@ -6870,7 +6801,34 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T01:35:00.000+02:00",
+            "AdvertisedTrainIdent": "3603",
+            "FromLocation": [
+                {
+                    "LocationName": "\u00c4n",
+                    "Priority": 1,
+                    "Order": 0
+                }
+            ],
+            "LocationSignature": "G",
+            "ToLocation": [
+                {
+                    "LocationName": "G",
+                    "Priority": 1,
+                    "Order": 0
+                }
+            ],
+            "TrainOwner": "VASTTRAF",
+            "ViaFromLocation": [
+                {
+                    "LocationName": "Bhs",
+                    "Priority": 3,
+                    "Order": 0
+                }
+            ]
+        },
+        {
+            "AdvertisedTimeAtLocation": "2024-04-17T05:20:00.000+02:00",
             "AdvertisedTrainIdent": "3018",
             "FromLocation": [
                 {
@@ -6897,7 +6855,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:20:00.000+02:00",
             "AdvertisedTrainIdent": "3515",
             "FromLocation": [
                 {
@@ -6924,7 +6882,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:25:00.000+02:00",
             "AdvertisedTrainIdent": "3617",
             "FromLocation": [
                 {
@@ -6951,7 +6909,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:35:00.000+02:00",
             "AdvertisedTrainIdent": "3717",
             "FromLocation": [
                 {
@@ -6978,7 +6936,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:45:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:45:00.000+02:00",
             "AdvertisedTrainIdent": "3020",
             "FromLocation": [
                 {
@@ -7005,7 +6963,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:50:00.000+02:00",
             "AdvertisedTrainIdent": "3517",
             "FromLocation": [
                 {
@@ -7032,7 +6990,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:00:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:00:00.000+02:00",
             "AdvertisedTrainIdent": "3172",
             "FromLocation": [
                 {
@@ -7059,7 +7017,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:00:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:00:00.000+02:00",
             "AdvertisedTrainIdent": "3215",
             "FromLocation": [
                 {
@@ -7086,7 +7044,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:05:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:05:00.000+02:00",
             "AdvertisedTrainIdent": "20150",
             "FromLocation": [
                 {
@@ -7128,7 +7086,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:15:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:15:00.000+02:00",
             "AdvertisedTrainIdent": "3022",
             "FromLocation": [
                 {
@@ -7155,7 +7113,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:15:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:15:00.000+02:00",
             "AdvertisedTrainIdent": "3519",
             "FromLocation": [
                 {
@@ -7182,7 +7140,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:20:00.000+02:00",
             "AdvertisedTrainIdent": "13122",
             "FromLocation": [
                 {
@@ -7219,7 +7177,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:20:00.000+02:00",
             "AdvertisedTrainIdent": "3419",
             "FromLocation": [
                 {
@@ -7251,7 +7209,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:20:00.000+02:00",
             "AdvertisedTrainIdent": "3719",
             "FromLocation": [
                 {
@@ -7278,7 +7236,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:25:00.000+02:00",
             "AdvertisedTrainIdent": "3621",
             "FromLocation": [
                 {
@@ -7305,7 +7263,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:30:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:30:00.000+02:00",
             "AdvertisedTrainIdent": "13267",
             "FromLocation": [
                 {
@@ -7332,7 +7290,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:30:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:30:00.000+02:00",
             "AdvertisedTrainIdent": "3174",
             "FromLocation": [
                 {
@@ -7359,7 +7317,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:35:00.000+02:00",
             "AdvertisedTrainIdent": "13671",
             "FromLocation": [
                 {
@@ -7386,7 +7344,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:35:00.000+02:00",
             "AdvertisedTrainIdent": "7324",
             "FromLocation": [
                 {
@@ -7413,7 +7371,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:40:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:40:00.000+02:00",
             "AdvertisedTrainIdent": "13221",
             "FromLocation": [
                 {
@@ -7440,7 +7398,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:40:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:40:00.000+02:00",
             "AdvertisedTrainIdent": "404",
             "FromLocation": [
                 {
@@ -7467,7 +7425,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:45:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:45:00.000+02:00",
             "AdvertisedTrainIdent": "3024",
             "FromLocation": [
                 {
@@ -7494,7 +7452,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:50:00.000+02:00",
             "AdvertisedTrainIdent": "20152",
             "FromLocation": [
                 {
@@ -7536,7 +7494,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:50:00.000+02:00",
             "AdvertisedTrainIdent": "3521",
             "FromLocation": [
                 {
@@ -7563,7 +7521,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:50:00.000+02:00",
             "AdvertisedTrainIdent": "3721",
             "FromLocation": [
                 {
@@ -7590,7 +7548,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:55:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:55:00.000+02:00",
             "AdvertisedTrainIdent": "3623",
             "FromLocation": [
                 {
@@ -7617,7 +7575,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:00:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:00:00.000+02:00",
             "AdvertisedTrainIdent": "13571",
             "FromLocation": [
                 {
@@ -7644,7 +7602,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:00:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:00:00.000+02:00",
             "AdvertisedTrainIdent": "3176",
             "FromLocation": [
                 {
@@ -7671,7 +7629,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:00:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:00:00.000+02:00",
             "AdvertisedTrainIdent": "3219",
             "FromLocation": [
                 {
@@ -7698,7 +7656,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:05:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:05:00.000+02:00",
             "AdvertisedTrainIdent": "3423",
             "FromLocation": [
                 {
@@ -7735,7 +7693,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:10:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:10:00.000+02:00",
             "AdvertisedTrainIdent": "13673",
             "FromLocation": [
                 {
@@ -7762,7 +7720,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:15:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:15:00.000+02:00",
             "AdvertisedTrainIdent": "13291",
             "FromLocation": [
                 {
@@ -7789,7 +7747,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:15:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:15:00.000+02:00",
             "AdvertisedTrainIdent": "3026",
             "FromLocation": [
                 {
@@ -7816,7 +7774,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:20:00.000+02:00",
             "AdvertisedTrainIdent": "20154",
             "FromLocation": [
                 {
@@ -7858,7 +7816,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:20:00.000+02:00",
             "AdvertisedTrainIdent": "3523",
             "FromLocation": [
                 {
@@ -7885,7 +7843,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:20:00.000+02:00",
             "AdvertisedTrainIdent": "3723",
             "FromLocation": [
                 {
@@ -7912,7 +7870,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:25:00.000+02:00",
             "AdvertisedTrainIdent": "153",
             "FromLocation": [
                 {
@@ -7954,7 +7912,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:25:00.000+02:00",
             "AdvertisedTrainIdent": "3625",
             "FromLocation": [
                 {
@@ -7981,7 +7939,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:30:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:30:00.000+02:00",
             "AdvertisedTrainIdent": "13271",
             "FromLocation": [
                 {
@@ -8008,7 +7966,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:30:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:30:00.000+02:00",
             "AdvertisedTrainIdent": "3178",
             "FromLocation": [
                 {
@@ -8035,7 +7993,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:35:00.000+02:00",
             "AdvertisedTrainIdent": "13128",
             "FromLocation": [
                 {
@@ -8072,7 +8030,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:35:00.000+02:00",
             "AdvertisedTrainIdent": "13573",
             "FromLocation": [
                 {
@@ -8099,7 +8057,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:35:00.000+02:00",
             "AdvertisedTrainIdent": "3705",
             "FromLocation": [
                 {
@@ -8126,7 +8084,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:40:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:40:00.000+02:00",
             "AdvertisedTrainIdent": "13675",
             "FromLocation": [
                 {
@@ -8153,7 +8111,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:45:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:45:00.000+02:00",
             "AdvertisedTrainIdent": "13295",
             "FromLocation": [
                 {
@@ -8195,7 +8153,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:45:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:45:00.000+02:00",
             "AdvertisedTrainIdent": "3028",
             "FromLocation": [
                 {
@@ -8222,34 +8180,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:45:00.000+02:00",
-            "AdvertisedTrainIdent": "63028",
-            "FromLocation": [
-                {
-                    "LocationName": "Kb",
-                    "Priority": 1,
-                    "Order": 0
-                }
-            ],
-            "LocationSignature": "G",
-            "ToLocation": [
-                {
-                    "LocationName": "G",
-                    "Priority": 1,
-                    "Order": 0
-                }
-            ],
-            "TrainOwner": "VASTTRAF",
-            "ViaFromLocation": [
-                {
-                    "LocationName": "Ldo",
-                    "Priority": 1,
-                    "Order": 0
-                }
-            ]
-        },
-        {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:50:00.000+02:00",
             "AdvertisedTrainIdent": "20156",
             "FromLocation": [
                 {
@@ -8291,7 +8222,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:50:00.000+02:00",
             "AdvertisedTrainIdent": "3525",
             "FromLocation": [
                 {
@@ -8318,7 +8249,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:50:00.000+02:00",
             "AdvertisedTrainIdent": "3725",
             "FromLocation": [
                 {
@@ -8345,7 +8276,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:55:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:55:00.000+02:00",
             "AdvertisedTrainIdent": "3301",
             "FromLocation": [
                 {
@@ -8377,7 +8308,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:55:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:55:00.000+02:00",
             "AdvertisedTrainIdent": "3627",
             "FromLocation": [
                 {
@@ -8404,7 +8335,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:00:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:00:00.000+02:00",
             "AdvertisedTrainIdent": "3180",
             "FromLocation": [
                 {
@@ -8431,7 +8362,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:00:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:00:00.000+02:00",
             "AdvertisedTrainIdent": "3223",
             "FromLocation": [
                 {
@@ -8458,7 +8389,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:00:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:00:00.000+02:00",
             "AdvertisedTrainIdent": "3427",
             "FromLocation": [
                 {
@@ -8500,7 +8431,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:05:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:05:00.000+02:00",
             "AdvertisedTrainIdent": "426",
             "FromLocation": [
                 {
@@ -8542,7 +8473,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:10:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:10:00.000+02:00",
             "AdvertisedTrainIdent": "13575",
             "FromLocation": [
                 {
@@ -8569,7 +8500,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:10:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:10:00.000+02:00",
             "AdvertisedTrainIdent": "13677",
             "FromLocation": [
                 {
@@ -8596,7 +8527,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:10:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:10:00.000+02:00",
             "AdvertisedTrainIdent": "7330",
             "FromLocation": [
                 {
@@ -8623,7 +8554,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:15:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:15:00.000+02:00",
             "AdvertisedTrainIdent": "13297",
             "FromLocation": [
                 {
@@ -8650,7 +8581,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:15:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:15:00.000+02:00",
             "AdvertisedTrainIdent": "3030",
             "FromLocation": [
                 {
@@ -8677,7 +8608,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:20:00.000+02:00",
             "AdvertisedTrainIdent": "11002",
             "FromLocation": [
                 {
@@ -8719,7 +8650,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:20:00.000+02:00",
             "AdvertisedTrainIdent": "3527",
             "FromLocation": [
                 {
@@ -8746,7 +8677,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:20:00.000+02:00",
             "AdvertisedTrainIdent": "3727",
             "FromLocation": [
                 {
@@ -8773,7 +8704,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:25:00.000+02:00",
             "AdvertisedTrainIdent": "13415",
             "FromLocation": [
                 {
@@ -8805,7 +8736,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:25:00.000+02:00",
             "AdvertisedTrainIdent": "3629",
             "FromLocation": [
                 {
@@ -8832,7 +8763,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:30:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:30:00.000+02:00",
             "AdvertisedTrainIdent": "13275",
             "FromLocation": [
                 {
@@ -8859,7 +8790,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:30:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:30:00.000+02:00",
             "AdvertisedTrainIdent": "3182",
             "FromLocation": [
                 {
@@ -8886,7 +8817,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:30:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:30:00.000+02:00",
             "AdvertisedTrainIdent": "3429",
             "FromLocation": [
                 {
@@ -8918,7 +8849,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:35:00.000+02:00",
             "AdvertisedTrainIdent": "13132",
             "FromLocation": [
                 {
@@ -8955,7 +8886,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:35:00.000+02:00",
             "AdvertisedTrainIdent": "419",
             "FromLocation": [
                 {
@@ -8987,7 +8918,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:40:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:40:00.000+02:00",
             "AdvertisedTrainIdent": "13679",
             "FromLocation": [
                 {
@@ -9014,7 +8945,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:45:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:45:00.000+02:00",
             "AdvertisedTrainIdent": "13577",
             "FromLocation": [
                 {
@@ -9041,7 +8972,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:45:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:45:00.000+02:00",
             "AdvertisedTrainIdent": "3032",
             "FromLocation": [
                 {
@@ -9068,7 +8999,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:45:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:45:00.000+02:00",
             "AdvertisedTrainIdent": "351",
             "FromLocation": [
                 {
@@ -9110,7 +9041,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:48:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:48:00.000+02:00",
             "AdvertisedTrainIdent": "7332",
             "FromLocation": [
                 {
@@ -9137,7 +9068,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:50:00.000+02:00",
             "AdvertisedTrainIdent": "20158",
             "FromLocation": [
                 {
@@ -9179,7 +9110,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:50:00.000+02:00",
             "AdvertisedTrainIdent": "3729",
             "FromLocation": [
                 {
@@ -9206,7 +9137,49 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:55:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:55:00.000+02:00",
+            "AdvertisedTrainIdent": "322",
+            "FromLocation": [
+                {
+                    "LocationName": "Kac",
+                    "Priority": 1,
+                    "Order": 0
+                }
+            ],
+            "LocationSignature": "G",
+            "ToLocation": [
+                {
+                    "LocationName": "G",
+                    "Priority": 1,
+                    "Order": 0
+                }
+            ],
+            "TrainOwner": "SJ",
+            "ViaFromLocation": [
+                {
+                    "LocationName": "Em",
+                    "Priority": 3,
+                    "Order": 0
+                },
+                {
+                    "LocationName": "V\u00f6",
+                    "Priority": 1,
+                    "Order": 1
+                },
+                {
+                    "LocationName": "Av",
+                    "Priority": 4,
+                    "Order": 2
+                },
+                {
+                    "LocationName": "Bsc",
+                    "Priority": 2,
+                    "Order": 3
+                }
+            ]
+        },
+        {
+            "AdvertisedTimeAtLocation": "2024-04-17T08:55:00.000+02:00",
             "AdvertisedTrainIdent": "3529",
             "FromLocation": [
                 {
@@ -9233,7 +9206,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:55:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:55:00.000+02:00",
             "AdvertisedTrainIdent": "3631",
             "FromLocation": [
                 {
@@ -9260,7 +9233,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:00:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:00:00.000+02:00",
             "AdvertisedTrainIdent": "3184",
             "FromLocation": [
                 {
@@ -9287,7 +9260,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:00:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:00:00.000+02:00",
             "AdvertisedTrainIdent": "3227",
             "FromLocation": [
                 {
@@ -9314,7 +9287,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:03:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:03:00.000+02:00",
             "AdvertisedTrainIdent": "157",
             "FromLocation": [
                 {
@@ -9356,7 +9329,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:05:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:05:00.000+02:00",
             "AdvertisedTrainIdent": "401",
             "FromLocation": [
                 {
@@ -9388,7 +9361,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:10:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:10:00.000+02:00",
             "AdvertisedTrainIdent": "13681",
             "FromLocation": [
                 {
@@ -9415,7 +9388,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:15:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:15:00.000+02:00",
             "AdvertisedTrainIdent": "13241",
             "FromLocation": [
                 {
@@ -9457,7 +9430,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:15:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:15:00.000+02:00",
             "AdvertisedTrainIdent": "3034",
             "FromLocation": [
                 {
@@ -9484,7 +9457,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:20:00.000+02:00",
             "AdvertisedTrainIdent": "1010",
             "FromLocation": [
                 {
@@ -9526,7 +9499,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:20:00.000+02:00",
             "AdvertisedTrainIdent": "3531",
             "FromLocation": [
                 {
@@ -9553,7 +9526,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:20:00.000+02:00",
             "AdvertisedTrainIdent": "3731",
             "FromLocation": [
                 {
@@ -9580,7 +9553,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:25:00.000+02:00",
             "AdvertisedTrainIdent": "3303",
             "FromLocation": [
                 {
@@ -9612,7 +9585,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:25:00.000+02:00",
             "AdvertisedTrainIdent": "3633",
             "FromLocation": [
                 {
@@ -9639,7 +9612,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:30:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:30:00.000+02:00",
             "AdvertisedTrainIdent": "13279",
             "FromLocation": [
                 {
@@ -9666,7 +9639,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:30:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:30:00.000+02:00",
             "AdvertisedTrainIdent": "2021",
             "FromLocation": [
                 {
@@ -9703,7 +9676,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:30:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:30:00.000+02:00",
             "AdvertisedTrainIdent": "3186",
             "FromLocation": [
                 {
@@ -9730,7 +9703,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:35:00.000+02:00",
             "AdvertisedTrainIdent": "421",
             "FromLocation": [
                 {
@@ -9762,7 +9735,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:35:00.000+02:00",
             "AdvertisedTrainIdent": "482",
             "FromLocation": [
                 {
@@ -9799,7 +9772,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:45:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:45:00.000+02:00",
             "AdvertisedTrainIdent": "3036",
             "FromLocation": [
                 {
@@ -9826,7 +9799,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:45:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:45:00.000+02:00",
             "AdvertisedTrainIdent": "383",
             "FromLocation": [
                 {
@@ -9855,7 +9828,7 @@
     ],
     "My": [
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T04:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T04:50:00.000+02:00",
             "AdvertisedTrainIdent": "8702",
             "FromLocation": [
                 {
@@ -9882,7 +9855,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:20:00.000+02:00",
             "AdvertisedTrainIdent": "8704",
             "FromLocation": [
                 {
@@ -9909,7 +9882,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:35:00.000+02:00",
             "AdvertisedTrainIdent": "8703",
             "FromLocation": [
                 {
@@ -9951,7 +9924,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:50:00.000+02:00",
             "AdvertisedTrainIdent": "8706",
             "FromLocation": [
                 {
@@ -9978,7 +9951,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:05:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:05:00.000+02:00",
             "AdvertisedTrainIdent": "8705",
             "FromLocation": [
                 {
@@ -10020,7 +9993,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:09:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:09:00.000+02:00",
             "AdvertisedTrainIdent": "8808",
             "FromLocation": [
                 {
@@ -10047,7 +10020,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:20:00.000+02:00",
             "AdvertisedTrainIdent": "8708",
             "FromLocation": [
                 {
@@ -10074,7 +10047,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:35:00.000+02:00",
             "AdvertisedTrainIdent": "8707",
             "FromLocation": [
                 {
@@ -10116,7 +10089,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:37:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:37:00.000+02:00",
             "AdvertisedTrainIdent": "8810",
             "FromLocation": [
                 {
@@ -10143,7 +10116,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:50:00.000+02:00",
             "AdvertisedTrainIdent": "8710",
             "FromLocation": [
                 {
@@ -10170,7 +10143,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:50:00.000+02:00",
             "AdvertisedTrainIdent": "8809",
             "FromLocation": [
                 {
@@ -10212,7 +10185,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:05:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:05:00.000+02:00",
             "AdvertisedTrainIdent": "8709",
             "FromLocation": [
                 {
@@ -10254,7 +10227,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:09:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:09:00.000+02:00",
             "AdvertisedTrainIdent": "8812",
             "FromLocation": [
                 {
@@ -10281,7 +10254,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:20:00.000+02:00",
             "AdvertisedTrainIdent": "8712",
             "FromLocation": [
                 {
@@ -10308,7 +10281,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:23:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:23:00.000+02:00",
             "AdvertisedTrainIdent": "8811",
             "FromLocation": [
                 {
@@ -10345,7 +10318,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:34:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:34:00.000+02:00",
             "AdvertisedTrainIdent": "8814",
             "FromLocation": [
                 {
@@ -10372,7 +10345,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:35:00.000+02:00",
             "AdvertisedTrainIdent": "8711",
             "FromLocation": [
                 {
@@ -10414,7 +10387,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:38:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:38:00.000+02:00",
             "AdvertisedTrainIdent": "8800",
             "FromLocation": [
                 {
@@ -10441,7 +10414,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:39:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:39:00.000+02:00",
             "AdvertisedTrainIdent": "522",
             "FromLocation": [
                 {
@@ -10483,7 +10456,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:50:00.000+02:00",
             "AdvertisedTrainIdent": "8714",
             "FromLocation": [
                 {
@@ -10510,7 +10483,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:50:00.000+02:00",
             "AdvertisedTrainIdent": "8813",
             "FromLocation": [
                 {
@@ -10552,7 +10525,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:05:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:05:00.000+02:00",
             "AdvertisedTrainIdent": "8713",
             "FromLocation": [
                 {
@@ -10594,7 +10567,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:09:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:09:00.000+02:00",
             "AdvertisedTrainIdent": "8816",
             "FromLocation": [
                 {
@@ -10621,7 +10594,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:13:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:13:00.000+02:00",
             "AdvertisedTrainIdent": "521",
             "FromLocation": [
                 {
@@ -10658,7 +10631,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:20:00.000+02:00",
             "AdvertisedTrainIdent": "8716",
             "FromLocation": [
                 {
@@ -10685,7 +10658,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:23:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:23:00.000+02:00",
             "AdvertisedTrainIdent": "8815",
             "FromLocation": [
                 {
@@ -10722,7 +10695,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:35:00.000+02:00",
             "AdvertisedTrainIdent": "8715",
             "FromLocation": [
                 {
@@ -10764,7 +10737,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:50:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:50:00.000+02:00",
             "AdvertisedTrainIdent": "8718",
             "FromLocation": [
                 {
@@ -10791,7 +10764,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:51:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:51:00.000+02:00",
             "AdvertisedTrainIdent": "8817",
             "FromLocation": [
                 {
@@ -10833,7 +10806,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:05:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:05:00.000+02:00",
             "AdvertisedTrainIdent": "8717",
             "FromLocation": [
                 {
@@ -10875,7 +10848,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:15:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:15:00.000+02:00",
             "AdvertisedTrainIdent": "18820",
             "FromLocation": [
                 {
@@ -10902,7 +10875,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:20:00.000+02:00",
             "AdvertisedTrainIdent": "8720",
             "FromLocation": [
                 {
@@ -10929,7 +10902,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:35:00.000+02:00",
             "AdvertisedTrainIdent": "8719",
             "FromLocation": [
                 {
@@ -10971,7 +10944,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:39:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:39:00.000+02:00",
             "AdvertisedTrainIdent": "526",
             "FromLocation": [
                 {
@@ -11013,7 +10986,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:44:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:44:00.000+02:00",
             "AdvertisedTrainIdent": "8163",
             "FromLocation": [
                 {
@@ -11057,7 +11030,7 @@
     ],
     "\u00d6r": [
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:35:00.000+02:00",
             "AdvertisedTrainIdent": "8162",
             "FromLocation": [
                 {
@@ -11089,7 +11062,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:55:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:55:00.000+02:00",
             "AdvertisedTrainIdent": "158",
             "FromLocation": [
                 {
@@ -11121,7 +11094,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:02:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:02:00.000+02:00",
             "AdvertisedTrainIdent": "157",
             "FromLocation": [
                 {
@@ -11153,7 +11126,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:15:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:15:00.000+02:00",
             "AdvertisedTrainIdent": "785",
             "FromLocation": [
                 {
@@ -11185,7 +11158,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:24:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:24:00.000+02:00",
             "AdvertisedTrainIdent": "8201",
             "FromLocation": [
                 {
@@ -11212,7 +11185,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:38:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:38:00.000+02:00",
             "AdvertisedTrainIdent": "8184",
             "FromLocation": [
                 {
@@ -11249,7 +11222,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:49:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:49:00.000+02:00",
             "AdvertisedTrainIdent": "901",
             "FromLocation": [
                 {
@@ -11281,7 +11254,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:54:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:54:00.000+02:00",
             "AdvertisedTrainIdent": "8181",
             "FromLocation": [
                 {
@@ -11323,7 +11296,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:55:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:55:00.000+02:00",
             "AdvertisedTrainIdent": "160",
             "FromLocation": [
                 {
@@ -11355,7 +11328,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:04:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:04:00.000+02:00",
             "AdvertisedTrainIdent": "159",
             "FromLocation": [
                 {
@@ -11387,7 +11360,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:10:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:10:00.000+02:00",
             "AdvertisedTrainIdent": "8234",
             "FromLocation": [
                 {
@@ -11429,7 +11402,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:15:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:15:00.000+02:00",
             "AdvertisedTrainIdent": "3332",
             "FromLocation": [
                 {
@@ -11461,7 +11434,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:24:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:24:00.000+02:00",
             "AdvertisedTrainIdent": "8202",
             "FromLocation": [
                 {
@@ -11488,7 +11461,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:25:00.000+02:00",
             "AdvertisedTrainIdent": "8231",
             "FromLocation": [
                 {
@@ -11515,7 +11488,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:30:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:30:00.000+02:00",
             "AdvertisedTrainIdent": "8101",
             "FromLocation": [
                 {
@@ -11557,7 +11530,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:33:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:33:00.000+02:00",
             "AdvertisedTrainIdent": "7202",
             "FromLocation": [
                 {
@@ -11594,7 +11567,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:44:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:44:00.000+02:00",
             "AdvertisedTrainIdent": "8186",
             "FromLocation": [
                 {
@@ -11626,7 +11599,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:49:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:49:00.000+02:00",
             "AdvertisedTrainIdent": "907",
             "FromLocation": [
                 {
@@ -11668,7 +11641,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:55:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:55:00.000+02:00",
             "AdvertisedTrainIdent": "162",
             "FromLocation": [
                 {
@@ -11700,7 +11673,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:58:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:58:00.000+02:00",
             "AdvertisedTrainIdent": "8163",
             "FromLocation": [
                 {
@@ -11742,7 +11715,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:02:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:02:00.000+02:00",
             "AdvertisedTrainIdent": "161",
             "FromLocation": [
                 {
@@ -11784,7 +11757,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:20:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:20:00.000+02:00",
             "AdvertisedTrainIdent": "8232",
             "FromLocation": [
                 {
@@ -11811,7 +11784,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:25:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:25:00.000+02:00",
             "AdvertisedTrainIdent": "8235",
             "FromLocation": [
                 {
@@ -11838,7 +11811,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:45:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:45:00.000+02:00",
             "AdvertisedTrainIdent": "164",
             "FromLocation": [
                 {
@@ -11880,7 +11853,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:45:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:45:00.000+02:00",
             "AdvertisedTrainIdent": "911",
             "FromLocation": [
                 {
@@ -11922,7 +11895,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:52:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:52:00.000+02:00",
             "AdvertisedTrainIdent": "8188",
             "FromLocation": [
                 {
@@ -11954,7 +11927,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:58:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:58:00.000+02:00",
             "AdvertisedTrainIdent": "8183",
             "FromLocation": [
                 {
@@ -11996,7 +11969,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:02:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:02:00.000+02:00",
             "AdvertisedTrainIdent": "163",
             "FromLocation": [
                 {
@@ -12038,7 +12011,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:19:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:19:00.000+02:00",
             "AdvertisedTrainIdent": "8206",
             "FromLocation": [
                 {
@@ -12065,7 +12038,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:42:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:42:00.000+02:00",
             "AdvertisedTrainIdent": "166",
             "FromLocation": [
                 {
@@ -12109,7 +12082,7 @@
     ],
     "F": [
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:44:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:44:00.000+02:00",
             "AdvertisedTrainIdent": "7202",
             "FromLocation": [
                 {
@@ -12136,7 +12109,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T05:57:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T05:57:00.000+02:00",
             "AdvertisedTrainIdent": "420",
             "FromLocation": [
                 {
@@ -12168,7 +12141,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:08:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:08:00.000+02:00",
             "AdvertisedTrainIdent": "3420",
             "FromLocation": [
                 {
@@ -12200,7 +12173,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:08:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:08:00.000+02:00",
             "AdvertisedTrainIdent": "7205",
             "FromLocation": [
                 {
@@ -12227,7 +12200,39 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:48:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:45:00.000+02:00",
+            "AdvertisedTrainIdent": "2012",
+            "FromLocation": [
+                {
+                    "LocationName": "G",
+                    "Priority": 1,
+                    "Order": 0
+                }
+            ],
+            "LocationSignature": "F",
+            "ToLocation": [
+                {
+                    "LocationName": "Cst",
+                    "Priority": 1,
+                    "Order": 0
+                }
+            ],
+            "TrainOwner": "MTRX",
+            "ViaFromLocation": [
+                {
+                    "LocationName": "A",
+                    "Priority": 2,
+                    "Order": 0
+                },
+                {
+                    "LocationName": "Hrc",
+                    "Priority": 1,
+                    "Order": 1
+                }
+            ]
+        },
+        {
+            "AdvertisedTimeAtLocation": "2024-04-17T06:48:00.000+02:00",
             "AdvertisedTrainIdent": "3427",
             "FromLocation": [
                 {
@@ -12254,34 +12259,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:49:00.000+02:00",
-            "AdvertisedTrainIdent": "2022",
-            "FromLocation": [
-                {
-                    "LocationName": "G",
-                    "Priority": 1,
-                    "Order": 0
-                }
-            ],
-            "LocationSignature": "F",
-            "ToLocation": [
-                {
-                    "LocationName": "Cst",
-                    "Priority": 1,
-                    "Order": 0
-                }
-            ],
-            "TrainOwner": "MTRX",
-            "ViaFromLocation": [
-                {
-                    "LocationName": "Hrc",
-                    "Priority": 1,
-                    "Order": 0
-                }
-            ]
-        },
-        {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:53:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:53:00.000+02:00",
             "AdvertisedTrainIdent": "462",
             "FromLocation": [
                 {
@@ -12308,7 +12286,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:02:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:02:00.000+02:00",
             "AdvertisedTrainIdent": "164",
             "FromLocation": [
                 {
@@ -12345,7 +12323,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:14:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:14:00.000+02:00",
             "AdvertisedTrainIdent": "7204",
             "FromLocation": [
                 {
@@ -12372,7 +12350,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:34:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:34:00.000+02:00",
             "AdvertisedTrainIdent": "3426",
             "FromLocation": [
                 {
@@ -12404,7 +12382,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:35:00.000+02:00",
             "AdvertisedTrainIdent": "7211",
             "FromLocation": [
                 {
@@ -12431,7 +12409,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:56:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:56:00.000+02:00",
             "AdvertisedTrainIdent": "157",
             "FromLocation": [
                 {
@@ -12473,7 +12451,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:05:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:05:00.000+02:00",
             "AdvertisedTrainIdent": "166",
             "FromLocation": [
                 {
@@ -12515,7 +12493,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:35:00.000+02:00",
             "AdvertisedTrainIdent": "3430",
             "FromLocation": [
                 {
@@ -12547,7 +12525,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:46:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:46:00.000+02:00",
             "AdvertisedTrainIdent": "7208",
             "FromLocation": [
                 {
@@ -12574,7 +12552,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:56:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:56:00.000+02:00",
             "AdvertisedTrainIdent": "159",
             "FromLocation": [
                 {
@@ -12616,7 +12594,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:02:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:02:00.000+02:00",
             "AdvertisedTrainIdent": "168",
             "FromLocation": [
                 {
@@ -12653,7 +12631,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:14:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:14:00.000+02:00",
             "AdvertisedTrainIdent": "7217",
             "FromLocation": [
                 {
@@ -12680,7 +12658,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:43:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:43:00.000+02:00",
             "AdvertisedTrainIdent": "7212",
             "FromLocation": [
                 {
@@ -12709,7 +12687,7 @@
     ],
     "N": [
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:06:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:06:00.000+02:00",
             "AdvertisedTrainIdent": "520",
             "FromLocation": [
                 {
@@ -12751,7 +12729,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:17:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:17:00.000+02:00",
             "AdvertisedTrainIdent": "7201",
             "FromLocation": [
                 {
@@ -12783,7 +12761,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:35:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:35:00.000+02:00",
             "AdvertisedTrainIdent": "27601",
             "FromLocation": [
                 {
@@ -12810,7 +12788,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:41:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:41:00.000+02:00",
             "AdvertisedTrainIdent": "17600",
             "FromLocation": [
                 {
@@ -12842,7 +12820,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:44:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:44:00.000+02:00",
             "AdvertisedTrainIdent": "346",
             "FromLocation": [
                 {
@@ -12869,7 +12847,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T06:45:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T06:45:00.000+02:00",
             "AdvertisedTrainIdent": "7600",
             "FromLocation": [
                 {
@@ -12896,7 +12874,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:01:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:01:00.000+02:00",
             "AdvertisedTrainIdent": "522",
             "FromLocation": [
                 {
@@ -12933,7 +12911,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:38:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:38:00.000+02:00",
             "AdvertisedTrainIdent": "7205",
             "FromLocation": [
                 {
@@ -12970,7 +12948,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:44:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:44:00.000+02:00",
             "AdvertisedTrainIdent": "27603",
             "FromLocation": [
                 {
@@ -12997,7 +12975,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:48:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:48:00.000+02:00",
             "AdvertisedTrainIdent": "519",
             "FromLocation": [
                 {
@@ -13029,7 +13007,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T07:58:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T07:58:00.000+02:00",
             "AdvertisedTrainIdent": "17602",
             "FromLocation": [
                 {
@@ -13061,7 +13039,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:03:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:03:00.000+02:00",
             "AdvertisedTrainIdent": "524",
             "FromLocation": [
                 {
@@ -13103,7 +13081,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:14:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:14:00.000+02:00",
             "AdvertisedTrainIdent": "7649",
             "FromLocation": [
                 {
@@ -13140,7 +13118,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:38:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:38:00.000+02:00",
             "AdvertisedTrainIdent": "17682",
             "FromLocation": [
                 {
@@ -13172,7 +13150,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:39:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:39:00.000+02:00",
             "AdvertisedTrainIdent": "7209",
             "FromLocation": [
                 {
@@ -13204,7 +13182,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:45:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:45:00.000+02:00",
             "AdvertisedTrainIdent": "27605",
             "FromLocation": [
                 {
@@ -13231,7 +13209,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T08:52:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T08:52:00.000+02:00",
             "AdvertisedTrainIdent": "521",
             "FromLocation": [
                 {
@@ -13273,7 +13251,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:01:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:01:00.000+02:00",
             "AdvertisedTrainIdent": "526",
             "FromLocation": [
                 {
@@ -13310,7 +13288,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:38:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:38:00.000+02:00",
             "AdvertisedTrainIdent": "17604",
             "FromLocation": [
                 {
@@ -13352,7 +13330,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:41:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:41:00.000+02:00",
             "AdvertisedTrainIdent": "7213",
             "FromLocation": [
                 {
@@ -13379,7 +13357,7 @@
             ]
         },
         {
-            "AdvertisedTimeAtLocation": "2024-04-16T09:45:00.000+02:00",
+            "AdvertisedTimeAtLocation": "2024-04-17T09:45:00.000+02:00",
             "AdvertisedTrainIdent": "27607",
             "FromLocation": [
                 {
