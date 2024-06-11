@@ -6,7 +6,7 @@ async function fetchTrainData() {
   <LOGIN authenticationkey="${authenticationKey}"/>
   <QUERY objecttype="TrainAnnouncement" schemaversion="1.9">
     <FILTER>
-      <EQ name="ScheduledDepartureDateTime" value="2024-05-30" />
+      <EQ name="ScheduledDepartureDateTime" value="2024-06-08" />
       <EQ name="TrainOwner" value="SJ" />
       <EQ name="ActivityType" value="Avgang" />
     </FILTER>
