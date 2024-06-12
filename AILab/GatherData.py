@@ -9,7 +9,7 @@ def gatherTrafficData():
   request_body = """
        <REQUEST>
   <LOGIN authenticationkey="d68896103a8141a186a79910d41ce683"/>
-  <QUERY objecttype="TrafficFlow" namespace="road.trafficinfo" schemaversion="1.5" limit="100">
+  <QUERY objecttype="TrafficFlow" namespace="road.trafficinfo" schemaversion="1.5" limit="10000">
     <FILTER>
     </FILTER>
     <INCLUDE>VehicleFlowRate</INCLUDE>
