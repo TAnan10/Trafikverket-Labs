@@ -20,6 +20,14 @@ async function fetchTrainData() {
     <INCLUDE>AdvertisedLocationName</INCLUDE>
     <INCLUDE>LocationSignature</INCLUDE>
   </QUERY>
+  <QUERY objecttype="TrainPosition" namespace="järnväg.trafikinfo" schemaversion="1.1" limit="1000">
+            <FILTER>
+                <EQ name="Train.JourneyPlanDepartureDate" value="2024-06-12" />
+            </FILTER>
+            <INCLUDE>Train.OperationalTrainNumber</INCLUDE>
+            <INCLUDE>Position</INCLUDE>
+            <INCLUDE>Status</INCLUDE>
+        </QUERY>
 </REQUEST>
 `;
 
