@@ -6,14 +6,12 @@ async function fetchTrainData() {
   <LOGIN authenticationkey="${authenticationKey}"/>
   <QUERY objecttype="TrainAnnouncement" schemaversion="1.9">
     <FILTER>
-      <EQ name="ScheduledDepartureDateTime" value="2024-06-08" />
-      <EQ name="TrainOwner" value="SJ" />
-      <EQ name="ActivityType" value="Avgang" />
+      <EQ name="LocationSignature" value="M" />
     </FILTER>
     <INCLUDE>ActivityType</INCLUDE>
     <INCLUDE>AdvertisedTrainIdent</INCLUDE>
     <INCLUDE>LocationSignature</INCLUDE>
-    <INCLUDE>ScheduledDepartureDateTime</INCLUDE>
+    <INCLUDE>AdvertisedTimeAtLocation</INCLUDE>
   </QUERY>
   <QUERY objecttype="TrainStation" namespace="rail.infrastructure" schemaversion="1.5">
     <FILTER></FILTER>
@@ -21,14 +19,14 @@ async function fetchTrainData() {
     <INCLUDE>LocationSignature</INCLUDE>
   </QUERY>
   <QUERY objecttype="TrainPosition" namespace="järnväg.trafikinfo" schemaversion="1.1" limit="1000">
-            <FILTER>
-                <EQ name="Train.JourneyPlanDepartureDate" value="2024-06-12" />
-            </FILTER>
-            <INCLUDE>Train.OperationalTrainNumber</INCLUDE>
-            <INCLUDE>Position</INCLUDE>
-            <INCLUDE>Status</INCLUDE>
-        </QUERY>
-</REQUEST>
+    <FILTER>
+      <EQ name="Train.JourneyPlanDepartureDate" value="2024-07-03T00:00:00.000+02:00" />
+    </FILTER>
+    <INCLUDE>Train.OperationalTrainNumber</INCLUDE>
+    <INCLUDE>Position</INCLUDE>
+    <INCLUDE>Status</INCLUDE>
+  </QUERY>
+  </REQUEST>
 `;
 
   const response = await fetch(url, {
@@ -52,6 +50,7 @@ function populateTable(data) {
   const tableBody = document
     .getElementById("train-table")
     .getElementsByTagName("tbody")[0];
+  tableBody.innerHTML = "";
 
   data.RESPONSE.RESULT[0].TrainAnnouncement.forEach((announcement) => {
     const row = tableBody.insertRow();
@@ -66,7 +65,7 @@ function populateTable(data) {
     locationSignature.textContent = announcement.LocationSignature;
 
     const schedule = row.insertCell();
-    schedule.textContent = announcement.ScheduledDepartureDateTime;
+    schedule.textContent = announcement.AdvertisedTimeAtLocation;
   });
 }
 
@@ -119,7 +118,7 @@ function trainStation() {
               locationSignature.textContent = announcement.LocationSignature;
 
               const schedule = row.insertCell();
-              schedule.textContent = announcement.ScheduledDepartureDateTime;
+              schedule.textContent = announcement.AdvertisedTimeAtLocation;
             }
           });
         } else {
@@ -130,8 +129,16 @@ function trainStation() {
   });
 }
 
-trainStation();
+function updateTrainData() {
+  fetchTrainData()
+    .then((data) => populateTable(data))
+    .catch((error) => console.error("Error fetching train data:", error));
+}
 
-fetchTrainData()
-  .then((data) => populateTable(data))
-  .catch((error) => console.error("Error fetching train data:", error));
+// Update train data every 60 seconds (60000 milliseconds)
+setInterval(updateTrainData, 60000);
+
+// Initial data fetch
+updateTrainData();
+
+trainStation();
