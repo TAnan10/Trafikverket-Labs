@@ -1,0 +1,15 @@
+C:\Users\123\Desktop\Github\Trafikverket-Labs\ExampleCode\C#\Streaming\bin\Debug\net8.0\Streaming.exe
+C:\Users\123\Desktop\Github\Trafikverket-Labs\ExampleCode\C#\Streaming\bin\Debug\net8.0\Streaming.deps.json
+C:\Users\123\Desktop\Github\Trafikverket-Labs\ExampleCode\C#\Streaming\bin\Debug\net8.0\Streaming.runtimeconfig.json
+C:\Users\123\Desktop\Github\Trafikverket-Labs\ExampleCode\C#\Streaming\bin\Debug\net8.0\Streaming.dll
+C:\Users\123\Desktop\Github\Trafikverket-Labs\ExampleCode\C#\Streaming\bin\Debug\net8.0\Streaming.pdb
+C:\Users\123\Desktop\Github\Trafikverket-Labs\ExampleCode\C#\Streaming\obj\Debug\net8.0\Streaming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\123\Desktop\Github\Trafikverket-Labs\ExampleCode\C#\Streaming\obj\Debug\net8.0\Streaming.AssemblyInfoInputs.cache
+C:\Users\123\Desktop\Github\Trafikverket-Labs\ExampleCode\C#\Streaming\obj\Debug\net8.0\Streaming.AssemblyInfo.cs
+C:\Users\123\Desktop\Github\Trafikverket-Labs\ExampleCode\C#\Streaming\obj\Debug\net8.0\Streaming.csproj.CoreCompileInputs.cache
+C:\Users\123\Desktop\Github\Trafikverket-Labs\ExampleCode\C#\Streaming\obj\Debug\net8.0\Streaming.sourcelink.json
+C:\Users\123\Desktop\Github\Trafikverket-Labs\ExampleCode\C#\Streaming\obj\Debug\net8.0\Streaming.dll
+C:\Users\123\Desktop\Github\Trafikverket-Labs\ExampleCode\C#\Streaming\obj\Debug\net8.0\refint\Streaming.dll
+C:\Users\123\Desktop\Github\Trafikverket-Labs\ExampleCode\C#\Streaming\obj\Debug\net8.0\Streaming.pdb
+C:\Users\123\Desktop\Github\Trafikverket-Labs\ExampleCode\C#\Streaming\obj\Debug\net8.0\Streaming.genruntimeconfig.cache
+C:\Users\123\Desktop\Github\Trafikverket-Labs\ExampleCode\C#\Streaming\obj\Debug\net8.0\ref\Streaming.dll
