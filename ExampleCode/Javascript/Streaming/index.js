@@ -1,9 +1,9 @@
 const axios = require('axios');
-const xml2js = require('xml2js');
 const EventSource = require('eventsource');
+const readline = require('readline');
 
 const authenticationKey = 'd68896103a8141a186a79910d41ce683';  // Replace with your real key
-const requestXml = `
+const requestJson = `
 <REQUEST>
     <LOGIN authenticationkey="${authenticationKey}" />
     <QUERY sseurl="true" objecttype="TrainAnnouncement" orderby="AdvertisedTimeAtLocation" schemaversion="1.3" limit="10">
@@ -21,47 +21,38 @@ const requestXml = `
     </QUERY>
 </REQUEST>`;
 
-const updateInterval = 5000;  // 5 seconds
+const updateInterval = 5000; // 5 seconds
 const maxEventsPerBatch = 10;
+
+let eventSource;
 
 async function fetchSseUrl() {
     try {
-        const response = await axios.post('https://api.trafikinfo.trafikverket.se/v2/data.json', requestXml, {
+        const response = await axios.post('https://api.trafikinfo.trafikverket.se/v2/data.json', requestJson, {
             headers: { 'Content-Type': 'application/xml' }
         });
-        
-        // Log the raw response data and the structure
-        console.log('Raw response:', response.data);
-        let result;
-        if (typeof response.data === 'string' && response.data.trim().startsWith('<')) {
-            result = await xml2js.parseStringPromise(response.data);
-        } else {
-            result = response.data;
-        }
 
-        // Log the parsed result
-        console.log('Parsed result:', JSON.stringify(result, null, 2));
-
-        const sseUrl = result.RESPONSE.RESULT[0].INFO.SSEURL;
+        const sseUrl = response.data.RESPONSE.RESULT[0].INFO.SSEURL;
         return sseUrl;
     } catch (error) {
-        console.error('Error fetching SSE URL:', error);
+        console.error('Error fetching SSE URL:', error.message);
+        return null;
     }
 }
 
 function startSseStream(sseUrl) {
-    const eventSource = new EventSource(sseUrl);
+    eventSource = new EventSource(sseUrl);
     let eventBuffer = [];
     let lastUpdate = new Date();
 
-    eventSource.onmessage = async (event) => {
+    eventSource.onmessage = (event) => {
         eventBuffer.push(event.data);
 
         if (new Date() - lastUpdate >= updateInterval) {
             if (eventBuffer.length > 0) {
-                await processEvents(eventBuffer.slice(0, maxEventsPerBatch));
-                eventBuffer = eventBuffer.slice(maxEventsPerBatch);
+                processEvents(eventBuffer.splice(0, maxEventsPerBatch));
                 lastUpdate = new Date();
+                console.log("Press 'x' to exit")
             }
         }
     };
@@ -69,6 +60,7 @@ function startSseStream(sseUrl) {
     eventSource.onerror = (error) => {
         console.error('Error with SSE stream:', error);
         eventSource.close();
+        // Optionally implement a reconnection strategy here
     };
 }
 
@@ -97,9 +89,27 @@ function getPropertyString(element, propertyName) {
     return element[propertyName] ? element[propertyName][0] : 'N/A';
 }
 
+function setupExitHandler() {
+    const rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout
+    });
+
+    rl.on('line', (input) => {
+        if (input.trim().toUpperCase() === 'X') {
+            console.log('Exiting...');
+            if (eventSource) {
+                eventSource.close();
+            }
+            process.exit(0);
+        }
+    });
+}
+
 (async function main() {
     const sseUrl = await fetchSseUrl();
     if (sseUrl) {
         startSseStream(sseUrl);
+        setupExitHandler();
     }
 })();
