@@ -5,6 +5,7 @@ import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.io.StringWriter;
 import java.net.HttpURLConnection;
+import java.net.URI;
 import java.net.URL;
 import java.util.Scanner;
 import javax.xml.parsers.DocumentBuilder;
@@ -45,7 +46,8 @@ public class BasicRequest {
 
         try {
             // API server URL
-            URL url = new URL("https://api.trafikinfo.trafikverket.se/v2/data.xml");
+            URI uri = new URI("https://api.trafikinfo.trafikverket.se/v2/data.xml");
+            URL url = uri.toURL();
 
             connection[0] = (HttpURLConnection) url.openConnection();
             connection[0].setRequestMethod("POST");
