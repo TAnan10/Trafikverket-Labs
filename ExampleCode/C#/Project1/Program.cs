@@ -1,6 +1,7 @@
 ﻿using System;
-using System.Net;
+using System.Net.Http;
 using System.Text;
+using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 
@@ -8,16 +9,13 @@ namespace OpenAPISampleNET
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             Console.WriteLine("--- Download Data Sample ---");
 
-            using (var webClient = new WebClient())
+            using (var httpClient = new HttpClient())
             {
-                webClient.Headers.Add("Referer", "http://www.example.com"); // Replace with your domain here
-                webClient.Headers["Content-Type"] = "text/xml";
-
-                webClient.UploadStringCompleted += WebClient_UploadStringCompleted;
+                httpClient.DefaultRequestHeaders.Add("Referer", "http://www.example.com"); // Replace with your domain here
 
                 try
                 {
@@ -31,7 +29,21 @@ namespace OpenAPISampleNET
                                         </REQUEST>";
 
                     Console.WriteLine("Fetching data... (press 'C' to cancel)");
-                    webClient.UploadStringAsync(address, "POST", requestBody);
+
+                    var cts = new System.Threading.CancellationTokenSource();
+                    var uploadTask = UploadStringAsync(httpClient, address, requestBody, cts.Token);
+
+                    char keyChar;
+                    do
+                    {
+                        keyChar = char.ToUpper(Console.ReadKey().KeyChar);
+                        if (keyChar == 'C')
+                        {
+                            cts.Cancel();
+                        }
+                    } while (keyChar != 'X');
+
+                    await uploadTask;
                 }
                 catch (UriFormatException)
                 {
@@ -41,34 +53,36 @@ namespace OpenAPISampleNET
                 {
                     Console.WriteLine($"An error occurred: {ex.Message}. Press 'X' to exit.");
                 }
-
-                char keyChar;
-                do
-                {
-                    keyChar = char.ToUpper(Console.ReadKey().KeyChar);
-                    if (keyChar == 'C')
-                    {
-                        webClient.CancelAsync();
-                    }
-                } while (keyChar != 'X');
             }
         }
 
-        private static void WebClient_UploadStringCompleted(object sender, UploadStringCompletedEventArgs e)
+        private static async Task UploadStringAsync(HttpClient httpClient, Uri address, string requestBody, System.Threading.CancellationToken cancellationToken)
         {
-            if (e.Cancelled)
+            try
+            {
+                var content = new StringContent(requestBody, Encoding.UTF8, "text/xml");
+                var response = await httpClient.PostAsync(address, content, cancellationToken);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var result = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine(FormatXml(result));
+                    Console.WriteLine("Data downloaded successfully.");
+                }
+                else
+                {
+                    Console.WriteLine($"Request failed: {response.ReasonPhrase}");
+                }
+            }
+            catch (OperationCanceledException)
             {
                 Console.WriteLine("Request cancelled by user.");
             }
-            else if (e.Error != null)
+            catch (Exception ex)
             {
-                Console.WriteLine($"Request failed: {e.Error.Message}");
+                Console.WriteLine($"Request failed: {ex.Message}");
             }
-            else
-            {
-                Console.WriteLine(FormatXml(e.Result));
-                Console.WriteLine("Data downloaded successfully.");
-            }
+
             Console.WriteLine("Press 'X' to exit.");
         }
 

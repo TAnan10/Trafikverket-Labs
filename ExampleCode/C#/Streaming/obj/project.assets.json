@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\123\\.nuget\\packages\\": {}
+    "/Users/erikolofsson/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\123\\Desktop\\Github\\Trafikverket-Labs\\ExampleCode\\C#\\Streaming\\Streaming.csproj",
+      "projectUniqueName": "/Users/erikolofsson/Desktop/github_trv/Trafikverket-Labs/ExampleCode/C#/Streaming/Streaming.csproj",
       "projectName": "Streaming",
-      "projectPath": "C:\\Users\\123\\Desktop\\Github\\Trafikverket-Labs\\ExampleCode\\C#\\Streaming\\Streaming.csproj",
-      "packagesPath": "C:\\Users\\123\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\123\\Desktop\\Github\\Trafikverket-Labs\\ExampleCode\\C#\\Streaming\\obj\\",
+      "projectPath": "/Users/erikolofsson/Desktop/github_trv/Trafikverket-Labs/ExampleCode/C#/Streaming/Streaming.csproj",
+      "packagesPath": "/Users/erikolofsson/.nuget/packages/",
+      "outputPath": "/Users/erikolofsson/Desktop/github_trv/Trafikverket-Labs/ExampleCode/C#/Streaming/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/erikolofsson/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -42,7 +42,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       }
     },
     "frameworks": {
@@ -59,12 +59,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.5, 8.0.5]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "version": "[8.0.5, 8.0.5]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.5, 8.0.5]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100-preview.6.24328.19/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
