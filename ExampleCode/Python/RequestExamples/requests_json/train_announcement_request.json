@@ -1,0 +1,835 @@
+/* Request sent to the API */
+{
+    "request": "<REQUEST>\\n            <!-- Authentication information for accessing the API -->\\n            <LOGIN authenticationkey=\"d68896103a8141a186a79910d41ce683\"/>\\n            <!-- Query to retrieve data for trains that have a ScheduledDepartureDateTime of 2022-07-01T12:25:15.000+02:00 or later -->\\n            <QUERY orderby=\"EstimatedTimeAtLocation desc\" objecttype=\"TrainAnnouncement\" schemaversion=\"1.9\" limit=\"10\">\\n                <FILTER>\\n                    <AND>\\n                        <GTE name=\"ScheduledDepartureDateTime\" value=\"2022-07-01T12:25:15.000+02:00\"/>\\n                    </AND>\\n                </FILTER>\\n            </QUERY>\\n        </REQUEST>"
+}
+
+/* Response received from the API */
+{
+    "RESPONSE": {
+        "RESULT": [
+            {
+                "TrainAnnouncement": [
+                    {
+                        "ActivityId": "1500adde-8f5d-379e-08dc-ab80f082f2b7",
+                        "ActivityType": "Ankomst",
+                        "Advertised": true,
+                        "AdvertisedTimeAtLocation": "2024-08-08T23:58:00.000+02:00",
+                        "AdvertisedTrainIdent": "1154",
+                        "Canceled": false,
+                        "Deleted": false,
+                        "DepartureDateOTN": "2024-08-08T00:00:00.000+02:00",
+                        "EstimatedTimeAtLocation": "2024-08-09T00:02:00.000+02:00",
+                        "EstimatedTimeIsPreliminary": false,
+                        "FromLocation": [
+                            {
+                                "LocationName": "Dk.kh",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "InformationOwner": "Skånetrafiken",
+                        "LocationDateTimeOTN": "2024-08-08T23:58:00.000+02:00",
+                        "LocationSignature": "Hie",
+                        "MobileWebLink": "http://mobil.skanetrafiken.se",
+                        "ModifiedTime": "2024-08-07T22:27:36.929Z",
+                        "NewEquipment": 0,
+                        "Operator": "TDEV",
+                        "OperationalTrainNumber": "1154",
+                        "OperationalTransportIdentifiers": [
+                            {
+                                "ObjectType": "TR",
+                                "Company": "3989",
+                                "Core": "--------1154",
+                                "Variant": "00",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            },
+                            {
+                                "ObjectType": "CR",
+                                "Company": "3178",
+                                "Core": "******257394",
+                                "Variant": "00",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            },
+                            {
+                                "ObjectType": "PR",
+                                "Company": "3178",
+                                "Core": "------693534",
+                                "Variant": "00",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            },
+                            {
+                                "ObjectType": "PA",
+                                "Company": "0074",
+                                "Core": "--------8677",
+                                "Variant": "1A",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            }
+                        ],
+                        "PlannedEstimatedTimeAtLocationIsValid": false,
+                        "ProductInformation": [
+                            {
+                                "Code": "PNA044",
+                                "Description": "Öresundståg"
+                            }
+                        ],
+                        "ScheduledDepartureDateTime": "2024-08-08T00:00:00.000+02:00",
+                        "ToLocation": [
+                            {
+                                "LocationName": "Hb",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "TrackAtLocation": "4b",
+                        "TrainOwner": "SKANE",
+                        "TypeOfTraffic": [
+                            {
+                                "Code": "YNA001",
+                                "Description": "Tåg"
+                            }
+                        ],
+                        "ViaFromLocation": [
+                            {
+                                "LocationName": "Dk.cph",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "WebLink": "http://www.skanetrafiken.se",
+                        "WebLinkName": "Skånetrafiken"
+                    },
+                    {
+                        "ActivityId": "1500adde-8f5d-379e-08dc-ab81a16337be",
+                        "ActivityType": "Ankomst",
+                        "Advertised": true,
+                        "AdvertisedTimeAtLocation": "2024-08-08T21:23:00.000+02:00",
+                        "AdvertisedTrainIdent": "89421",
+                        "Canceled": false,
+                        "Deleted": false,
+                        "DepartureDateOTN": "2024-08-08T00:00:00.000+02:00",
+                        "Deviation": [
+                            {
+                                "Code": "ANA046",
+                                "Description": "Prel. tid"
+                            }
+                        ],
+                        "EstimatedTimeAtLocation": "2024-08-08T21:35:00.000+02:00",
+                        "EstimatedTimeIsPreliminary": true,
+                        "FromLocation": [
+                            {
+                                "LocationName": "Gvc",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "LocationDateTimeOTN": "2024-08-08T21:23:00.000+02:00",
+                        "LocationSignature": "Ös",
+                        "ModifiedTime": "2024-08-08T00:20:47.306Z",
+                        "NewEquipment": 0,
+                        "Operator": "ITAB",
+                        "OperationalTrainNumber": "89423",
+                        "OperationalTransportIdentifiers": [
+                            {
+                                "ObjectType": "PR",
+                                "Company": "0074",
+                                "Core": "----LTP42394",
+                                "Variant": "00",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            },
+                            {
+                                "ObjectType": "TR",
+                                "Company": "3350",
+                                "Core": "-------89421",
+                                "Variant": "01",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            },
+                            {
+                                "ObjectType": "PA",
+                                "Company": "0074",
+                                "Core": "--------3982",
+                                "Variant": "0D",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            }
+                        ],
+                        "PlannedEstimatedTimeAtLocationIsValid": false,
+                        "ScheduledDepartureDateTime": "2024-08-08T00:00:00.000+02:00",
+                        "ToLocation": [
+                            {
+                                "LocationName": "Ös",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "TrackAtLocation": "1b",
+                        "TrainOwner": "ITAB",
+                        "TypeOfTraffic": [
+                            {
+                                "Code": "YNA001",
+                                "Description": "Tåg"
+                            }
+                        ],
+                        "ViaFromLocation": [
+                            {
+                                "LocationName": "Pj",
+                                "Priority": 4,
+                                "Order": 0
+                            },
+                            {
+                                "LocationName": "Ajr",
+                                "Priority": 1,
+                                "Order": 1
+                            },
+                            {
+                                "LocationName": "Sum",
+                                "Priority": 2,
+                                "Order": 2
+                            },
+                            {
+                                "LocationName": "Htg",
+                                "Priority": 3,
+                                "Order": 3
+                            }
+                        ]
+                    },
+                    {
+                        "ActivityId": "1500adde-8f5d-379e-08dc-ab81a160d551",
+                        "ActivityType": "Ankomst",
+                        "Advertised": true,
+                        "AdvertisedTimeAtLocation": "2024-08-08T21:18:00.000+02:00",
+                        "AdvertisedTrainIdent": "89421",
+                        "Canceled": false,
+                        "Deleted": false,
+                        "DepartureDateOTN": "2024-08-08T00:00:00.000+02:00",
+                        "Deviation": [
+                            {
+                                "Code": "ANA046",
+                                "Description": "Prel. tid"
+                            }
+                        ],
+                        "EstimatedTimeAtLocation": "2024-08-08T21:30:00.000+02:00",
+                        "EstimatedTimeIsPreliminary": true,
+                        "FromLocation": [
+                            {
+                                "LocationName": "Gvc",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "LocationDateTimeOTN": "2024-08-08T21:18:00.000+02:00",
+                        "LocationSignature": "Ösv",
+                        "ModifiedTime": "2024-08-07T16:51:16.773Z",
+                        "NewEquipment": 0,
+                        "Operator": "ITAB",
+                        "OperationalTrainNumber": "89423",
+                        "OperationalTransportIdentifiers": [
+                            {
+                                "ObjectType": "PR",
+                                "Company": "0074",
+                                "Core": "----LTP42394",
+                                "Variant": "00",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            },
+                            {
+                                "ObjectType": "TR",
+                                "Company": "3350",
+                                "Core": "-------89421",
+                                "Variant": "01",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            },
+                            {
+                                "ObjectType": "PA",
+                                "Company": "0074",
+                                "Core": "--------3982",
+                                "Variant": "0D",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            }
+                        ],
+                        "PlannedEstimatedTimeAtLocationIsValid": false,
+                        "ScheduledDepartureDateTime": "2024-08-08T00:00:00.000+02:00",
+                        "ToLocation": [
+                            {
+                                "LocationName": "Ös",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "TrackAtLocation": "1",
+                        "TrainOwner": "ITAB",
+                        "TypeOfTraffic": [
+                            {
+                                "Code": "YNA001",
+                                "Description": "Tåg"
+                            }
+                        ],
+                        "ViaFromLocation": [
+                            {
+                                "LocationName": "Pj",
+                                "Priority": 4,
+                                "Order": 0
+                            },
+                            {
+                                "LocationName": "Ajr",
+                                "Priority": 1,
+                                "Order": 1
+                            },
+                            {
+                                "LocationName": "Sum",
+                                "Priority": 2,
+                                "Order": 2
+                            },
+                            {
+                                "LocationName": "Htg",
+                                "Priority": 3,
+                                "Order": 3
+                            }
+                        ]
+                    },
+                    {
+                        "ActivityId": "86ac7934-b7d9-0dda-7f6f-12786a4d1462",
+                        "ActivityType": "Ankomst",
+                        "Advertised": false,
+                        "AdvertisedTimeAtLocation": "2024-08-08T19:54:00.000+02:00",
+                        "AdvertisedTrainIdent": "89425",
+                        "Canceled": false,
+                        "Deleted": false,
+                        "DepartureDateOTN": "2024-08-08T00:00:00.000+02:00",
+                        "EstimatedTimeAtLocation": "2024-08-08T19:56:00.000+02:00",
+                        "LocationSignature": "Ösv",
+                        "ModifiedTime": "2024-08-07T16:51:16.909Z",
+                        "OperationalTrainNumber": "89424",
+                        "ScheduledDepartureDateTime": "2024-08-08T00:00:00.000+02:00"
+                    },
+                    {
+                        "ActivityId": "1500adde-8f5d-379e-08dc-ab81a1b6af70",
+                        "ActivityType": "Ankomst",
+                        "Advertised": true,
+                        "AdvertisedTimeAtLocation": "2024-08-08T19:54:00.000+02:00",
+                        "AdvertisedTrainIdent": "89424",
+                        "Canceled": false,
+                        "Deleted": false,
+                        "DepartureDateOTN": "2024-08-08T00:00:00.000+02:00",
+                        "Deviation": [
+                            {
+                                "Code": "ANA046",
+                                "Description": "Prel. tid"
+                            }
+                        ],
+                        "EstimatedTimeAtLocation": "2024-08-08T19:56:00.000+02:00",
+                        "EstimatedTimeIsPreliminary": true,
+                        "FromLocation": [
+                            {
+                                "LocationName": "Mras",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "LocationDateTimeOTN": "2024-08-08T19:54:00.000+02:00",
+                        "LocationSignature": "Ösv",
+                        "ModifiedTime": "2024-08-08T00:22:49.763Z",
+                        "NewEquipment": 0,
+                        "Operator": "ITAB",
+                        "OperationalTrainNumber": "89424",
+                        "OperationalTransportIdentifiers": [
+                            {
+                                "ObjectType": "TR",
+                                "Company": "3350",
+                                "Core": "-------89424",
+                                "Variant": "01",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            },
+                            {
+                                "ObjectType": "PR",
+                                "Company": "0074",
+                                "Core": "----LTP42392",
+                                "Variant": "00",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            },
+                            {
+                                "ObjectType": "PA",
+                                "Company": "0074",
+                                "Core": "--------3967",
+                                "Variant": "06",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            }
+                        ],
+                        "PlannedEstimatedTimeAtLocationIsValid": false,
+                        "ScheduledDepartureDateTime": "2024-08-08T00:00:00.000+02:00",
+                        "ToLocation": [
+                            {
+                                "LocationName": "Ösv",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "TrackAtLocation": "1",
+                        "TrainOwner": "ITAB",
+                        "TypeOfTraffic": [
+                            {
+                                "Code": "YNA001",
+                                "Description": "Tåg"
+                            }
+                        ],
+                        "ViaFromLocation": [
+                            {
+                                "LocationName": "Mrc",
+                                "Priority": 1,
+                                "Order": 0
+                            },
+                            {
+                                "LocationName": "Vtn",
+                                "Priority": 3,
+                                "Order": 1
+                            },
+                            {
+                                "LocationName": "Ors",
+                                "Priority": 4,
+                                "Order": 2
+                            },
+                            {
+                                "LocationName": "S",
+                                "Priority": 2,
+                                "Order": 3
+                            }
+                        ]
+                    },
+                    {
+                        "ActivityId": "1500adde-8f5d-379e-08dc-ab81a1b6af6e",
+                        "ActivityType": "Avgang",
+                        "Advertised": true,
+                        "AdvertisedTimeAtLocation": "2024-08-08T19:39:00.000+02:00",
+                        "AdvertisedTrainIdent": "89424",
+                        "Canceled": false,
+                        "Deleted": false,
+                        "DepartureDateOTN": "2024-08-08T00:00:00.000+02:00",
+                        "Deviation": [
+                            {
+                                "Code": "ANA046",
+                                "Description": "Prel. tid"
+                            }
+                        ],
+                        "EstimatedTimeAtLocation": "2024-08-08T19:40:00.000+02:00",
+                        "EstimatedTimeIsPreliminary": true,
+                        "FromLocation": [
+                            {
+                                "LocationName": "Mras",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "LocationDateTimeOTN": "2024-08-08T19:39:00.000+02:00",
+                        "LocationSignature": "Bf",
+                        "ModifiedTime": "2024-08-07T16:52:28.121Z",
+                        "NewEquipment": 0,
+                        "Operator": "ITAB",
+                        "OperationalTrainNumber": "89424",
+                        "OperationalTransportIdentifiers": [
+                            {
+                                "ObjectType": "TR",
+                                "Company": "3350",
+                                "Core": "-------89424",
+                                "Variant": "01",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            },
+                            {
+                                "ObjectType": "PR",
+                                "Company": "0074",
+                                "Core": "----LTP42392",
+                                "Variant": "00",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            },
+                            {
+                                "ObjectType": "PA",
+                                "Company": "0074",
+                                "Core": "--------3967",
+                                "Variant": "06",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            }
+                        ],
+                        "PlannedEstimatedTimeAtLocationIsValid": false,
+                        "ScheduledDepartureDateTime": "2024-08-08T00:00:00.000+02:00",
+                        "ToLocation": [
+                            {
+                                "LocationName": "Ösv",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "TrackAtLocation": "4",
+                        "TrainOwner": "ITAB",
+                        "TypeOfTraffic": [
+                            {
+                                "Code": "YNA001",
+                                "Description": "Tåg"
+                            }
+                        ],
+                        "ViaToLocation": [
+                            {
+                                "LocationName": "Ös",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ]
+                    },
+                    {
+                        "ActivityId": "1500adde-8f5d-379e-08dc-ab81a1b6af6d",
+                        "ActivityType": "Ankomst",
+                        "Advertised": true,
+                        "AdvertisedTimeAtLocation": "2024-08-08T19:39:00.000+02:00",
+                        "AdvertisedTrainIdent": "89424",
+                        "Canceled": false,
+                        "Deleted": false,
+                        "DepartureDateOTN": "2024-08-08T00:00:00.000+02:00",
+                        "Deviation": [
+                            {
+                                "Code": "ANA046",
+                                "Description": "Prel. tid"
+                            }
+                        ],
+                        "EstimatedTimeAtLocation": "2024-08-08T19:40:00.000+02:00",
+                        "EstimatedTimeIsPreliminary": true,
+                        "FromLocation": [
+                            {
+                                "LocationName": "Mras",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "LocationDateTimeOTN": "2024-08-08T19:38:00.000+02:00",
+                        "LocationSignature": "Bf",
+                        "ModifiedTime": "2024-08-08T00:22:49.732Z",
+                        "NewEquipment": 0,
+                        "Operator": "ITAB",
+                        "OperationalTrainNumber": "89424",
+                        "OperationalTransportIdentifiers": [
+                            {
+                                "ObjectType": "TR",
+                                "Company": "3350",
+                                "Core": "-------89424",
+                                "Variant": "01",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            },
+                            {
+                                "ObjectType": "PR",
+                                "Company": "0074",
+                                "Core": "----LTP42392",
+                                "Variant": "00",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            },
+                            {
+                                "ObjectType": "PA",
+                                "Company": "0074",
+                                "Core": "--------3967",
+                                "Variant": "06",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            }
+                        ],
+                        "PlannedEstimatedTimeAtLocationIsValid": false,
+                        "ScheduledDepartureDateTime": "2024-08-08T00:00:00.000+02:00",
+                        "ToLocation": [
+                            {
+                                "LocationName": "Ösv",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "TrackAtLocation": "4",
+                        "TrainOwner": "ITAB",
+                        "TypeOfTraffic": [
+                            {
+                                "Code": "YNA001",
+                                "Description": "Tåg"
+                            }
+                        ],
+                        "ViaFromLocation": [
+                            {
+                                "LocationName": "Mrc",
+                                "Priority": 1,
+                                "Order": 0
+                            },
+                            {
+                                "LocationName": "Vtn",
+                                "Priority": 3,
+                                "Order": 1
+                            },
+                            {
+                                "LocationName": "Ors",
+                                "Priority": 4,
+                                "Order": 2
+                            },
+                            {
+                                "LocationName": "S",
+                                "Priority": 2,
+                                "Order": 3
+                            }
+                        ]
+                    },
+                    {
+                        "ActivityId": "1500adde-8f5d-379e-08dc-ab80fc1fea8a",
+                        "ActivityType": "Ankomst",
+                        "Advertised": true,
+                        "AdvertisedTimeAtLocation": "2024-08-08T18:26:00.000+02:00",
+                        "AdvertisedTrainIdent": "1305",
+                        "Canceled": false,
+                        "Deleted": false,
+                        "DepartureDateOTN": "2024-08-08T00:00:00.000+02:00",
+                        "Deviation": [
+                            {
+                                "Code": "ANA046",
+                                "Description": "Prel. tid"
+                            }
+                        ],
+                        "EstimatedTimeAtLocation": "2024-08-08T18:29:00.000+02:00",
+                        "EstimatedTimeIsPreliminary": true,
+                        "FromLocation": [
+                            {
+                                "LocationName": "No.tnd",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "InformationOwner": "SJ",
+                        "LocationDateTimeOTN": "2024-08-08T18:26:00.000+02:00",
+                        "LocationSignature": "Str",
+                        "MobileWebLink": "http://mobil.sj.se",
+                        "ModifiedTime": "2024-08-08T00:24:41.288Z",
+                        "NewEquipment": 0,
+                        "Operator": "SJ",
+                        "OperationalTrainNumber": "13055",
+                        "OperationalTransportIdentifiers": [
+                            {
+                                "ObjectType": "TR",
+                                "Company": "1174",
+                                "Core": "--------1305",
+                                "Variant": "00",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            },
+                            {
+                                "ObjectType": "PA",
+                                "Company": "0074",
+                                "Core": "-------34472",
+                                "Variant": "01",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            }
+                        ],
+                        "PlannedEstimatedTimeAtLocationIsValid": false,
+                        "ScheduledDepartureDateTime": "2024-08-08T00:00:00.000+02:00",
+                        "ToLocation": [
+                            {
+                                "LocationName": "Str",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "TrackAtLocation": "3",
+                        "TrainOwner": "SJ",
+                        "TypeOfTraffic": [
+                            {
+                                "Code": "YNA001",
+                                "Description": "Tåg"
+                            }
+                        ],
+                        "WebLink": "http://www.sj.se/trafikinfo",
+                        "WebLinkName": "SJ"
+                    },
+                    {
+                        "ActivityId": "1500adde-8f5d-379e-08dc-ab819cb65f5e",
+                        "ActivityType": "Avgang",
+                        "Advertised": true,
+                        "AdvertisedTimeAtLocation": "2024-08-08T16:58:00.000+02:00",
+                        "AdvertisedTrainIdent": "8751",
+                        "Canceled": false,
+                        "Deleted": false,
+                        "DepartureDateOTN": "2024-08-08T00:00:00.000+02:00",
+                        "EstimatedTimeAtLocation": "2024-08-08T17:01:00.000+02:00",
+                        "EstimatedTimeIsPreliminary": false,
+                        "FromLocation": [
+                            {
+                                "LocationName": "Nr",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "InformationOwner": "ÖstgötaTrafiken",
+                        "LocationDateTimeOTN": "2024-08-08T16:58:00.000+02:00",
+                        "LocationSignature": "Kms",
+                        "ModifiedTime": "2024-08-08T09:48:33.297Z",
+                        "NewEquipment": 0,
+                        "Operator": "ARRIVA",
+                        "OperationalTrainNumber": "8751",
+                        "OperationalTransportIdentifiers": [
+                            {
+                                "ObjectType": "PR",
+                                "Company": "0074",
+                                "Core": "----LTP23925",
+                                "Variant": "00",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            },
+                            {
+                                "ObjectType": "TR",
+                                "Company": "5007",
+                                "Core": "--------8751",
+                                "Variant": "01",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            },
+                            {
+                                "ObjectType": "PA",
+                                "Company": "0074",
+                                "Core": "--------1103",
+                                "Variant": "0S",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            }
+                        ],
+                        "PlannedEstimatedTimeAtLocationIsValid": false,
+                        "ProductInformation": [
+                            {
+                                "Code": "PNA043",
+                                "Description": "Östgötapendel"
+                            }
+                        ],
+                        "ScheduledDepartureDateTime": "2024-08-08T00:00:00.000+02:00",
+                        "ToLocation": [
+                            {
+                                "LocationName": "Mot",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "TrackAtLocation": "2",
+                        "TrainOwner": "ÖTRAF",
+                        "TypeOfTraffic": [
+                            {
+                                "Code": "YNA001",
+                                "Description": "Tåg"
+                            }
+                        ],
+                        "ViaToLocation": [
+                            {
+                                "LocationName": "Lgm",
+                                "Priority": 3,
+                                "Order": 0
+                            },
+                            {
+                                "LocationName": "Lp",
+                                "Priority": 1,
+                                "Order": 1
+                            },
+                            {
+                                "LocationName": "Vsd",
+                                "Priority": 4,
+                                "Order": 2
+                            },
+                            {
+                                "LocationName": "My",
+                                "Priority": 2,
+                                "Order": 3
+                            }
+                        ],
+                        "WebLink": "http://www.ostgotatrafiken.se",
+                        "WebLinkName": "ÖstgötaTrafiken"
+                    },
+                    {
+                        "ActivityId": "1500adde-8f5d-379e-08dc-ab819cb65f5d",
+                        "ActivityType": "Ankomst",
+                        "Advertised": true,
+                        "AdvertisedTimeAtLocation": "2024-08-08T16:58:00.000+02:00",
+                        "AdvertisedTrainIdent": "8751",
+                        "Canceled": false,
+                        "Deleted": false,
+                        "DepartureDateOTN": "2024-08-08T00:00:00.000+02:00",
+                        "EstimatedTimeAtLocation": "2024-08-08T17:01:00.000+02:00",
+                        "EstimatedTimeIsPreliminary": false,
+                        "FromLocation": [
+                            {
+                                "LocationName": "Nr",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "InformationOwner": "ÖstgötaTrafiken",
+                        "LocationDateTimeOTN": "2024-08-08T16:58:00.000+02:00",
+                        "LocationSignature": "Kms",
+                        "ModifiedTime": "2024-08-08T09:48:33.297Z",
+                        "NewEquipment": 0,
+                        "Operator": "ARRIVA",
+                        "OperationalTrainNumber": "8751",
+                        "OperationalTransportIdentifiers": [
+                            {
+                                "ObjectType": "PR",
+                                "Company": "0074",
+                                "Core": "----LTP23925",
+                                "Variant": "00",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            },
+                            {
+                                "ObjectType": "TR",
+                                "Company": "5007",
+                                "Core": "--------8751",
+                                "Variant": "01",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            },
+                            {
+                                "ObjectType": "PA",
+                                "Company": "0074",
+                                "Core": "--------1103",
+                                "Variant": "0S",
+                                "TimetableYear": 2024,
+                                "StartDate": "2024-08-08"
+                            }
+                        ],
+                        "PlannedEstimatedTimeAtLocationIsValid": false,
+                        "ProductInformation": [
+                            {
+                                "Code": "PNA043",
+                                "Description": "Östgötapendel"
+                            }
+                        ],
+                        "ScheduledDepartureDateTime": "2024-08-08T00:00:00.000+02:00",
+                        "ToLocation": [
+                            {
+                                "LocationName": "Mot",
+                                "Priority": 1,
+                                "Order": 0
+                            }
+                        ],
+                        "TrackAtLocation": "2",
+                        "TrainOwner": "ÖTRAF",
+                        "TypeOfTraffic": [
+                            {
+                                "Code": "YNA001",
+                                "Description": "Tåg"
+                            }
+                        ],
+                        "WebLink": "http://www.ostgotatrafiken.se",
+                        "WebLinkName": "ÖstgötaTrafiken"
+                    }
+                ]
+            }
+        ]
+    }
+}

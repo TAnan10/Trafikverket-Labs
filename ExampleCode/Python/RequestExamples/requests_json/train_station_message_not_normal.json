@@ -1,0 +1,225 @@
+/* Request sent to the API */
+{
+    "request": "<REQUEST>\\n            <!-- Authentication information for accessing the API -->\\n            <LOGIN authenticationkey=\"d68896103a8141a186a79910d41ce683\"/>\\n            <!-- Query to retrieve TrainStationMessage data where Status field is not 'Normal' -->\\n            <QUERY objecttype=\"TrainStationMessage\" schemaversion=\"1\" limit=\"10\">\\n                <FILTER>\\n                    <NOTLIKE name=\"Status\" value=\"Normal\"/>\\n                </FILTER>\\n            </QUERY>\\n        </REQUEST>"
+}
+
+/* Response received from the API */
+{
+    "RESPONSE": {
+        "RESULT": [
+            {
+                "TrainStationMessage": [
+                    {
+                        "Id": "1500adde-1d5d-4237-08dc-8ef48991c06c",
+                        "MediaType": "Monitor",
+                        "LocationCode": "Äs",
+                        "StartDateTime": "2024-06-24T04:00:00.000+02:00",
+                        "EndDateTime": "2024-08-16T21:30:00.000+02:00",
+                        "SplitActivationTime": false,
+                        "FreeText": "Pendeltågen påverkas av flera banarbeten i \nsommar. Sök din resa och läs mer på sl.se \neller i SL-appen.\n\nService changes for the Commuter rail during \nthe summer due to track work. Please plan \nyour journey at sl.se or in the SL app.",
+                        "Status": "Lag",
+                        "VersionNumber": 23,
+                        "ActiveDays": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+                        "MonitorAttributes": {
+                            "CommuterMonitor": true,
+                            "BigScreenMonitorActivated": false
+                        },
+                        "Deleted": false,
+                        "ModifiedTime": "2024-08-05T14:07:43.568Z"
+                    },
+                    {
+                        "Id": "1500adde-1d5d-4237-08dc-8ef48991c06e",
+                        "MediaType": "Monitor",
+                        "LocationCode": "Åbe",
+                        "StartDateTime": "2024-06-24T04:00:00.000+02:00",
+                        "EndDateTime": "2024-08-16T21:30:00.000+02:00",
+                        "SplitActivationTime": false,
+                        "FreeText": "Pendeltågen påverkas av flera banarbeten i \nsommar. Sök din resa och läs mer på sl.se \neller i SL-appen.\n\nService changes for the Commuter rail during \nthe summer due to track work. Please plan \nyour journey at sl.se or in the SL app.",
+                        "Status": "Lag",
+                        "VersionNumber": 23,
+                        "ActiveDays": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+                        "MonitorAttributes": {
+                            "CommuterMonitor": true,
+                            "BigScreenMonitorActivated": false
+                        },
+                        "Deleted": false,
+                        "ModifiedTime": "2024-08-05T14:07:43.584Z"
+                    },
+                    {
+                        "Id": "1500adde-1d5d-4237-08dc-8ef48991c070",
+                        "MediaType": "Monitor",
+                        "LocationCode": "Sst",
+                        "StartDateTime": "2024-06-24T04:00:00.000+02:00",
+                        "EndDateTime": "2024-08-16T21:30:00.000+02:00",
+                        "SplitActivationTime": false,
+                        "FreeText": "Pendeltågen påverkas av flera banarbeten i \nsommar. Sök din resa och läs mer på sl.se \neller i SL-appen.\n\nService changes for the Commuter rail during \nthe summer due to track work. Please plan \nyour journey at sl.se or in the SL app.",
+                        "Status": "Lag",
+                        "VersionNumber": 23,
+                        "ActiveDays": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+                        "MonitorAttributes": {
+                            "CommuterMonitor": true,
+                            "BigScreenMonitorActivated": false
+                        },
+                        "Deleted": false,
+                        "ModifiedTime": "2024-08-05T14:07:43.600Z"
+                    },
+                    {
+                        "Id": "1500adde-1d5d-4237-08dc-8ef48991c072",
+                        "MediaType": "Monitor",
+                        "LocationCode": "Sci",
+                        "StartDateTime": "2024-06-24T04:00:00.000+02:00",
+                        "EndDateTime": "2024-08-16T21:30:00.000+02:00",
+                        "SplitActivationTime": false,
+                        "FreeText": "Pendeltågen påverkas av flera banarbeten i \nsommar. Sök din resa och läs mer på sl.se \neller i SL-appen.\n\nService changes for the Commuter rail during \nthe summer due to track work. Please plan \nyour journey at sl.se or in the SL app.",
+                        "Status": "Lag",
+                        "VersionNumber": 23,
+                        "ActiveDays": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+                        "MonitorAttributes": {
+                            "CommuterMonitor": true,
+                            "BigScreenMonitorActivated": false
+                        },
+                        "Deleted": false,
+                        "ModifiedTime": "2024-08-05T14:07:43.600Z"
+                    },
+                    {
+                        "Id": "1500adde-1d5d-4237-08dc-8ef48991c074",
+                        "MediaType": "Monitor",
+                        "LocationCode": "Sod",
+                        "StartDateTime": "2024-06-24T04:00:00.000+02:00",
+                        "EndDateTime": "2024-08-16T21:30:00.000+02:00",
+                        "SplitActivationTime": false,
+                        "FreeText": "Pendeltågen påverkas av flera banarbeten i \nsommar. Sök din resa och läs mer på sl.se \neller i SL-appen.\n\nService changes for the Commuter rail during \nthe summer due to track work. Please plan \nyour journey at sl.se or in the SL app.",
+                        "Status": "Lag",
+                        "VersionNumber": 23,
+                        "ActiveDays": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+                        "MonitorAttributes": {
+                            "CommuterMonitor": true,
+                            "BigScreenMonitorActivated": false
+                        },
+                        "Deleted": false,
+                        "ModifiedTime": "2024-08-05T14:07:43.615Z"
+                    },
+                    {
+                        "Id": "1500adde-1d5d-4237-08dc-8ef4df96c299",
+                        "MediaType": "Plattformsskylt",
+                        "LocationCode": "Äs",
+                        "StartDateTime": "2024-06-24T04:00:00.000+02:00",
+                        "EndDateTime": "2024-08-16T21:30:00.000+02:00",
+                        "SplitActivationTime": false,
+                        "FreeText": "Pendeltågen påverkas av flera banarbeten i \nsommar. Se sl.se.",
+                        "Status": "Lag",
+                        "VersionNumber": 22,
+                        "ActiveDays": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+                        "PlatformSignAttributes": {
+                            "CommuterPlatformSign": true,
+                            "TrackList": {
+                                "Track": [
+                                    "3",
+                                    "4",
+                                    "7",
+                                    "8"
+                                ]
+                            }
+                        },
+                        "Deleted": false,
+                        "ModifiedTime": "2024-08-04T08:15:53.009Z"
+                    },
+                    {
+                        "Id": "1500adde-1d5d-4237-08dc-8ef4df96c29b",
+                        "MediaType": "Plattformsskylt",
+                        "LocationCode": "Åbe",
+                        "StartDateTime": "2024-06-24T04:00:00.000+02:00",
+                        "EndDateTime": "2024-08-16T21:30:00.000+02:00",
+                        "SplitActivationTime": false,
+                        "FreeText": "Pendeltågen påverkas av flera banarbeten i \nsommar. Se sl.se.",
+                        "Status": "Lag",
+                        "VersionNumber": 22,
+                        "ActiveDays": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+                        "PlatformSignAttributes": {
+                            "CommuterPlatformSign": true,
+                            "TrackList": {
+                                "Track": [
+                                    "2",
+                                    "3"
+                                ]
+                            }
+                        },
+                        "Deleted": false,
+                        "ModifiedTime": "2024-08-04T08:15:53.009Z"
+                    },
+                    {
+                        "Id": "1500adde-1d5d-4237-08dc-8ef4df96c29d",
+                        "MediaType": "Plattformsskylt",
+                        "LocationCode": "Sst",
+                        "StartDateTime": "2024-06-24T04:00:00.000+02:00",
+                        "EndDateTime": "2024-08-16T21:30:00.000+02:00",
+                        "SplitActivationTime": false,
+                        "FreeText": "Pendeltågen påverkas av flera banarbeten i \nsommar. Se sl.se.",
+                        "Status": "Lag",
+                        "VersionNumber": 22,
+                        "ActiveDays": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+                        "PlatformSignAttributes": {
+                            "CommuterPlatformSign": true,
+                            "TrackList": {
+                                "Track": [
+                                    "1",
+                                    "2"
+                                ]
+                            }
+                        },
+                        "Deleted": false,
+                        "ModifiedTime": "2024-08-04T08:15:53.025Z"
+                    },
+                    {
+                        "Id": "1500adde-1d5d-4237-08dc-8ef4df96c29f",
+                        "MediaType": "Plattformsskylt",
+                        "LocationCode": "Sci",
+                        "StartDateTime": "2024-06-24T04:00:00.000+02:00",
+                        "EndDateTime": "2024-08-16T21:30:00.000+02:00",
+                        "SplitActivationTime": false,
+                        "FreeText": "Pendeltågen påverkas av flera banarbeten i \nsommar. Se sl.se.",
+                        "Status": "Lag",
+                        "VersionNumber": 22,
+                        "ActiveDays": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+                        "PlatformSignAttributes": {
+                            "CommuterPlatformSign": true,
+                            "TrackList": {
+                                "Track": [
+                                    "1",
+                                    "2",
+                                    "3",
+                                    "4"
+                                ]
+                            }
+                        },
+                        "Deleted": false,
+                        "ModifiedTime": "2024-08-04T08:15:53.040Z"
+                    },
+                    {
+                        "Id": "1500adde-1d5d-4237-08dc-8ef4df96c2a1",
+                        "MediaType": "Plattformsskylt",
+                        "LocationCode": "Sod",
+                        "StartDateTime": "2024-06-24T04:00:00.000+02:00",
+                        "EndDateTime": "2024-08-16T21:30:00.000+02:00",
+                        "SplitActivationTime": false,
+                        "FreeText": "Pendeltågen påverkas av flera banarbeten i \nsommar. Se sl.se.",
+                        "Status": "Lag",
+                        "VersionNumber": 22,
+                        "ActiveDays": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+                        "PlatformSignAttributes": {
+                            "CommuterPlatformSign": true,
+                            "TrackList": {
+                                "Track": [
+                                    "1",
+                                    "2"
+                                ]
+                            }
+                        },
+                        "Deleted": false,
+                        "ModifiedTime": "2024-08-04T08:15:53.040Z"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,246 @@
+<!-- Request sent to the API -->
+<?xml version="1.0" ?>
+<REQUEST>
+    <!-- Authentication information for accessing the API -->
+    <LOGIN authenticationkey="d68896103a8141a186a79910d41ce683"/>
+    <!-- Query to retrieve PavementData with Length less than 600 and County not equal to 12 -->
+    <QUERY objecttype="PavementData" namespace="road.pavementinfo" schemaversion="1" limit="10">
+        <FILTER>
+            <AND>
+                <LT name="Length" value="600"/>
+                <NE name="County" value="12"/>
+            </AND>
+        </FILTER>
+    </QUERY>
+</REQUEST>
+
+<!-- Response received from the API -->
+<?xml version="1.0" ?>
+<RESPONSE>
+    <RESULT>
+        <PavementData>
+            <County>1</County>
+            <RoadMainNumber>893</RoadMainNumber>
+            <RoadSubNumber>0</RoadSubNumber>
+            <Direction>
+                <Code>1</Code>
+                <Value>Med</Value>
+            </Direction>
+            <Lane>10</Lane>
+            <StartContinuousLength>0</StartContinuousLength>
+            <EndContinuousLength>1</EndContinuousLength>
+            <Length>211</Length>
+            <PavementDate>1995-10-10T00:00:00.000+02:00</PavementDate>
+            <PavementType>HABS</PavementType>
+            <MaxStoneSize>12</MaxStoneSize>
+            <Thickness>22</Thickness>
+            <Contractor>Skanska</Contractor>
+            <Coverage>Heltäckande</Coverage>
+            <TimeStamp>2024-08-07T00:18:47.967+02:00</TimeStamp>
+            <ModifiedTime>2024-08-06T22:22:11.805Z</ModifiedTime>
+            <Deleted>false</Deleted>
+        </PavementData>
+        <PavementData>
+            <County>1</County>
+            <RoadMainNumber>683</RoadMainNumber>
+            <RoadSubNumber>1</RoadSubNumber>
+            <Direction>
+                <Code>1</Code>
+                <Value>Med</Value>
+            </Direction>
+            <Lane>10</Lane>
+            <StartContinuousLength>0</StartContinuousLength>
+            <EndContinuousLength>2</EndContinuousLength>
+            <Length>242</Length>
+            <PavementDate>1992-11-10T00:00:00.000+01:00</PavementDate>
+            <PavementType>AG - Asfaltsgrus</PavementType>
+            <TreatmentCategory>Bind- och bärlager</TreatmentCategory>
+            <MaxStoneSize>16</MaxStoneSize>
+            <Coverage>Heltäckande</Coverage>
+            <TimeStamp>2024-08-08T00:12:26.245+02:00</TimeStamp>
+            <ModifiedTime>2024-08-07T22:15:11.493Z</ModifiedTime>
+            <Deleted>false</Deleted>
+        </PavementData>
+        <PavementData>
+            <County>1</County>
+            <RoadMainNumber>1035</RoadMainNumber>
+            <RoadSubNumber>0</RoadSubNumber>
+            <Direction>
+                <Code>1</Code>
+                <Value>Med</Value>
+            </Direction>
+            <Lane>10</Lane>
+            <StartContinuousLength>0</StartContinuousLength>
+            <EndContinuousLength>10</EndContinuousLength>
+            <Length>552</Length>
+            <PavementDate>1985-05-24T00:00:00.000+02:00</PavementDate>
+            <PavementType>MABT</PavementType>
+            <MaxStoneSize>12</MaxStoneSize>
+            <Thickness>24</Thickness>
+            <Coverage>Heltäckande</Coverage>
+            <TimeStamp>2024-06-20T19:57:12.742+02:00</TimeStamp>
+            <ModifiedTime>2024-06-25T02:24:36.495Z</ModifiedTime>
+            <Deleted>false</Deleted>
+        </PavementData>
+        <PavementData>
+            <County>1</County>
+            <RoadMainNumber>1105</RoadMainNumber>
+            <RoadSubNumber>0</RoadSubNumber>
+            <Direction>
+                <Code>1</Code>
+                <Value>Med</Value>
+            </Direction>
+            <Lane>10</Lane>
+            <StartContinuousLength>0</StartContinuousLength>
+            <EndContinuousLength>13</EndContinuousLength>
+            <Length>552</Length>
+            <PavementDate>1975-01-01T00:00:00.000+01:00</PavementDate>
+            <PavementType>MABT</PavementType>
+            <MaxStoneSize>16</MaxStoneSize>
+            <Thickness>40</Thickness>
+            <Coverage>Heltäckande</Coverage>
+            <TimeStamp>2024-08-07T00:23:32.103+02:00</TimeStamp>
+            <ModifiedTime>2024-08-06T22:29:16.340Z</ModifiedTime>
+            <Deleted>false</Deleted>
+        </PavementData>
+        <PavementData>
+            <County>1</County>
+            <RoadMainNumber>519</RoadMainNumber>
+            <RoadSubNumber>0</RoadSubNumber>
+            <Direction>
+                <Code>1</Code>
+                <Value>Med</Value>
+            </Direction>
+            <Lane>10</Lane>
+            <StartContinuousLength>0</StartContinuousLength>
+            <EndContinuousLength>14</EndContinuousLength>
+            <Length>362</Length>
+            <PavementDate>1977-01-01T00:00:00.000+01:00</PavementDate>
+            <PavementType>MABT</PavementType>
+            <MaxStoneSize>12</MaxStoneSize>
+            <Thickness>24</Thickness>
+            <Coverage>Heltäckande</Coverage>
+            <TimeStamp>2024-08-06T23:39:46.924+02:00</TimeStamp>
+            <ModifiedTime>2024-08-06T21:42:03.913Z</ModifiedTime>
+            <Deleted>false</Deleted>
+        </PavementData>
+        <PavementData>
+            <County>1</County>
+            <RoadMainNumber>1152</RoadMainNumber>
+            <RoadSubNumber>0</RoadSubNumber>
+            <Direction>
+                <Code>1</Code>
+                <Value>Med</Value>
+            </Direction>
+            <Lane>10</Lane>
+            <StartContinuousLength>0</StartContinuousLength>
+            <EndContinuousLength>19</EndContinuousLength>
+            <Length>598</Length>
+            <PavementDate>1999-09-30T00:00:00.000+02:00</PavementDate>
+            <PavementType>ABT - Asfaltbetong, tät</PavementType>
+            <TreatmentCategory>Asfaltbetong</TreatmentCategory>
+            <MaxStoneSize>11</MaxStoneSize>
+            <Thickness>0</Thickness>
+            <Contractor>Sandahls</Contractor>
+            <Binder>B 160/220</Binder>
+            <Coverage>Heltäckande</Coverage>
+            <TimeStamp>2024-08-07T00:24:27.207+02:00</TimeStamp>
+            <ModifiedTime>2024-08-06T22:29:13.832Z</ModifiedTime>
+            <Deleted>false</Deleted>
+        </PavementData>
+        <PavementData>
+            <County>1</County>
+            <RoadMainNumber>509</RoadMainNumber>
+            <RoadSubNumber>0</RoadSubNumber>
+            <Direction>
+                <Code>1</Code>
+                <Value>Med</Value>
+            </Direction>
+            <Lane>10</Lane>
+            <StartContinuousLength>0</StartContinuousLength>
+            <EndContinuousLength>23</EndContinuousLength>
+            <Length>23</Length>
+            <PavementDate>2014-10-31T00:00:00.000+01:00</PavementDate>
+            <PavementType>ABT - Asfaltbetong, tät</PavementType>
+            <TreatmentCategory>Asfaltbetong</TreatmentCategory>
+            <MaxStoneSize>16</MaxStoneSize>
+            <Contractor>Sandahls</Contractor>
+            <Binder>B 70/100</Binder>
+            <Coverage>Fläckvis</Coverage>
+            <Warranty>0</Warranty>
+            <TimeStamp>2024-08-06T23:39:35.748+02:00</TimeStamp>
+            <ModifiedTime>2024-08-06T21:42:04.412Z</ModifiedTime>
+            <Deleted>false</Deleted>
+        </PavementData>
+        <PavementData>
+            <County>1</County>
+            <RoadMainNumber>509</RoadMainNumber>
+            <RoadSubNumber>0</RoadSubNumber>
+            <Direction>
+                <Code>1</Code>
+                <Value>Med</Value>
+            </Direction>
+            <Lane>10</Lane>
+            <StartContinuousLength>23</StartContinuousLength>
+            <EndContinuousLength>43</EndContinuousLength>
+            <Length>20</Length>
+            <PavementDate>2014-10-31T00:00:00.000+01:00</PavementDate>
+            <PavementType>ABT - Asfaltbetong, tät</PavementType>
+            <TreatmentCategory>Asfaltbetong</TreatmentCategory>
+            <MaxStoneSize>16</MaxStoneSize>
+            <Contractor>Sandahls</Contractor>
+            <Binder>B 70/100</Binder>
+            <Coverage>Fläckvis</Coverage>
+            <Warranty>0</Warranty>
+            <TimeStamp>2024-08-06T23:39:35.748+02:00</TimeStamp>
+            <ModifiedTime>2024-08-06T21:42:04.412Z</ModifiedTime>
+            <Deleted>false</Deleted>
+        </PavementData>
+        <PavementData>
+            <County>1</County>
+            <RoadMainNumber>1100</RoadMainNumber>
+            <RoadSubNumber>0</RoadSubNumber>
+            <Direction>
+                <Code>1</Code>
+                <Value>Med</Value>
+            </Direction>
+            <Lane>10</Lane>
+            <StartContinuousLength>0</StartContinuousLength>
+            <EndContinuousLength>43</EndContinuousLength>
+            <Length>205</Length>
+            <PavementDate>2009-11-30T00:00:00.000+01:00</PavementDate>
+            <PavementType>ABS - Asfaltbetong, stenrik</PavementType>
+            <TreatmentCategory>Asfaltbetong</TreatmentCategory>
+            <MaxStoneSize>11</MaxStoneSize>
+            <Thickness>30</Thickness>
+            <Contractor>PEAB</Contractor>
+            <Binder>B 70/100</Binder>
+            <Coverage>Heltäckande</Coverage>
+            <TimeStamp>2024-08-07T00:23:26.695+02:00</TimeStamp>
+            <ModifiedTime>2024-08-06T22:29:17.533Z</ModifiedTime>
+            <Deleted>false</Deleted>
+        </PavementData>
+        <PavementData>
+            <County>1</County>
+            <RoadMainNumber>519</RoadMainNumber>
+            <RoadSubNumber>0</RoadSubNumber>
+            <Direction>
+                <Code>1</Code>
+                <Value>Med</Value>
+            </Direction>
+            <Lane>10</Lane>
+            <StartContinuousLength>14</StartContinuousLength>
+            <EndContinuousLength>54</EndContinuousLength>
+            <Length>40</Length>
+            <PavementDate>1986-05-22T00:00:00.000+02:00</PavementDate>
+            <PavementType>Y1B - Enkel ytbehandling på bituminöst underlag</PavementType>
+            <TreatmentCategory>Tankbeläggning</TreatmentCategory>
+            <MaxStoneSize>12</MaxStoneSize>
+            <Thickness>0</Thickness>
+            <Coverage>Heltäckande</Coverage>
+            <TimeStamp>2024-08-06T23:39:46.924+02:00</TimeStamp>
+            <ModifiedTime>2024-08-06T21:42:03.913Z</ModifiedTime>
+            <Deleted>false</Deleted>
+        </PavementData>
+    </RESULT>
+</RESPONSE>

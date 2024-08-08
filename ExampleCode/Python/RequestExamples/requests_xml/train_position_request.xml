@@ -1,0 +1,39 @@
+<!-- Request sent to the API -->
+<?xml version="1.0" ?>
+<REQUEST>
+    <!-- Authentication information for accessing the API -->
+    <LOGIN authenticationkey="d68896103a8141a186a79910d41ce683"/>
+    <!-- Query to retrieve TrainPosition data for the trains with advertisedtrainnumber 123 -->
+    <QUERY objecttype="TrainPosition" namespace="järnväg.trafikinfo" schemaversion="1.1">
+        <FILTER>
+            <EQ name="Train.AdvertisedTrainNumber" value="123"/>
+        </FILTER>
+    </QUERY>
+</REQUEST>
+
+<!-- Response received from the API -->
+<?xml version="1.0" ?>
+<RESPONSE>
+    <RESULT>
+        <TrainPosition>
+            <Train>
+                <OperationalTrainNumber>123</OperationalTrainNumber>
+                <OperationalTrainDepartureDate>2024-08-08T00:00:00.000+02:00</OperationalTrainDepartureDate>
+                <JourneyPlanNumber>3033</JourneyPlanNumber>
+                <JourneyPlanDepartureDate>2024-08-08T00:00:00.000+02:00</JourneyPlanDepartureDate>
+                <AdvertisedTrainNumber>123</AdvertisedTrainNumber>
+            </Train>
+            <Position>
+                <SWEREF99TM>POINT (505958 6547400)</SWEREF99TM>
+                <WGS84>POINT (15.103902178621638 59.06594770323939)</WGS84>
+            </Position>
+            <TimeStamp>2024-08-08T09:44:29.059+02:00</TimeStamp>
+            <Status>
+                <Active>false</Active>
+            </Status>
+            <Bearing>252</Bearing>
+            <ModifiedTime>2024-08-08T07:44:29.547Z</ModifiedTime>
+            <Deleted>false</Deleted>
+        </TrainPosition>
+    </RESULT>
+</RESPONSE>

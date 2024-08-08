@@ -1,0 +1,78 @@
+<!-- Request sent to the API -->
+<?xml version="1.0" ?>
+<REQUEST>
+    <!-- Authentication information for accessing the API -->
+    <LOGIN authenticationkey="d68896103a8141a186a79910d41ce683"/>
+    <!-- Query to retrieve TrafficFlow data with SiteId 132 and VehicleFlowRate 60 or AverageVehicleSpeed greater than 10 -->
+    <QUERY objecttype="TrafficFlow" namespace="road.trafficinfo" schemaversion="1.5" limit="10">
+        <FILTER>
+            <OR>
+                <AND>
+                    <EQ name="SiteId" value="132"/>
+                    <EQ name="VehicleFlowRate" value="60"/>
+                </AND>
+                <GT name="AverageVehicleSpeed" value="10"/>
+            </OR>
+        </FILTER>
+        <INCLUDE>AverageVehicleSpeed</INCLUDE>
+        <INCLUDE>SiteId</INCLUDE>
+        <INCLUDE>VehicleFlowRate</INCLUDE>
+    </QUERY>
+</REQUEST>
+
+<!-- Response received from the API -->
+<?xml version="1.0" ?>
+<RESPONSE>
+    <RESULT>
+        <TrafficFlow>
+            <SiteId>132</SiteId>
+            <VehicleFlowRate>600</VehicleFlowRate>
+            <AverageVehicleSpeed>85.46</AverageVehicleSpeed>
+        </TrafficFlow>
+        <TrafficFlow>
+            <SiteId>1484</SiteId>
+            <VehicleFlowRate>540</VehicleFlowRate>
+            <AverageVehicleSpeed>83.52</AverageVehicleSpeed>
+        </TrafficFlow>
+        <TrafficFlow>
+            <SiteId>1421</SiteId>
+            <VehicleFlowRate>360</VehicleFlowRate>
+            <AverageVehicleSpeed>106.02</AverageVehicleSpeed>
+        </TrafficFlow>
+        <TrafficFlow>
+            <SiteId>1013</SiteId>
+            <VehicleFlowRate>300</VehicleFlowRate>
+            <AverageVehicleSpeed>70.42</AverageVehicleSpeed>
+        </TrafficFlow>
+        <TrafficFlow>
+            <SiteId>1481</SiteId>
+            <VehicleFlowRate>840</VehicleFlowRate>
+            <AverageVehicleSpeed>82.77</AverageVehicleSpeed>
+        </TrafficFlow>
+        <TrafficFlow>
+            <SiteId>4406</SiteId>
+            <VehicleFlowRate>1140</VehicleFlowRate>
+            <AverageVehicleSpeed>64.02</AverageVehicleSpeed>
+        </TrafficFlow>
+        <TrafficFlow>
+            <SiteId>1006</SiteId>
+            <VehicleFlowRate>840</VehicleFlowRate>
+            <AverageVehicleSpeed>68.22</AverageVehicleSpeed>
+        </TrafficFlow>
+        <TrafficFlow>
+            <SiteId>3</SiteId>
+            <VehicleFlowRate>900</VehicleFlowRate>
+            <AverageVehicleSpeed>59.64</AverageVehicleSpeed>
+        </TrafficFlow>
+        <TrafficFlow>
+            <SiteId>384</SiteId>
+            <VehicleFlowRate>780</VehicleFlowRate>
+            <AverageVehicleSpeed>75.71</AverageVehicleSpeed>
+        </TrafficFlow>
+        <TrafficFlow>
+            <SiteId>81</SiteId>
+            <VehicleFlowRate>300</VehicleFlowRate>
+            <AverageVehicleSpeed>78.55</AverageVehicleSpeed>
+        </TrafficFlow>
+    </RESULT>
+</RESPONSE>
