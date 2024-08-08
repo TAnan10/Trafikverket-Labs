@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapbox Markers</title>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.3.1/mapbox-gl-directions.css" type="text/css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            height: 100vh;
+            width: 100vw;
+        }
+        .marker {
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .train-station {
+            background-image: url('https://i.ibb.co/P9hstbx/train-station.png');
+        }
+        .train-message {
+            background-image: url('https://i.ibb.co/cxfzBML/train.png'); /* Add your icon URL */
+        }
+        .ferry-route {
+            background-image: url('https://i.ibb.co/HVTRnkQ/ship.png'); /* Add your icon URL */
+        }
+        .road-condition {
+            background-image: url('https://i.ibb.co/zs3bs5L/work-in-progress.png'); /* Add your icon URL */
+        }
+        .parking-space {
+            background-image: url('https://i.ibb.co/ctm3fR2/parking.png'); /* Add your icon URL */
+        }
+        .mapboxgl-popup {
+            max-width: 200px;
+        }
+        .mapboxgl-popup-content {
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js'></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.3.1/mapbox-gl-directions.js"></script>
+    <script src="fetch-coordinates.js" defer></script>
+</head>
+<body>
+    <div id="map"></div>
+</body>
+</html>
