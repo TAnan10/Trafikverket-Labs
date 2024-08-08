@@ -1,0 +1,109 @@
+<!-- Request sent to the API -->
+<?xml version="1.0" ?>
+<REQUEST>
+    <!-- Authentication information for accessing the API -->
+    <LOGIN authenticationkey="d68896103a8141a186a79910d41ce683"/>
+    <!-- Query to retrieve ReasonCode data where Code starts with 'ANA' -->
+    <QUERY objecttype="ReasonCode" schemaversion="1" limit="10">
+        <FILTER>
+            <LIKE name="Code" value="/^ANA"/>
+        </FILTER>
+    </QUERY>
+</REQUEST>
+
+<!-- Response received from the API -->
+<?xml version="1.0" ?>
+<RESPONSE>
+    <RESULT>
+        <ReasonCode>
+            <Code>ANA023</Code>
+            <GroupDescription>Annonseringstexter</GroupDescription>
+            <Level1Description>Avvikelse</Level1Description>
+            <Level2Description>Nationell</Level2Description>
+            <Level3Description>Bomfel</Level3Description>
+            <Deleted>false</Deleted>
+            <ModifiedTime>2024-03-12T12:13:09.063Z</ModifiedTime>
+        </ReasonCode>
+        <ReasonCode>
+            <Code>ANA012</Code>
+            <GroupDescription>Annonseringstexter</GroupDescription>
+            <Level1Description>Avvikelse</Level1Description>
+            <Level2Description>Nationell</Level2Description>
+            <Level3Description>Dörr 2-13</Level3Description>
+            <Deleted>false</Deleted>
+            <ModifiedTime>2024-03-12T12:13:08.954Z</ModifiedTime>
+        </ReasonCode>
+        <ReasonCode>
+            <Code>ANA004</Code>
+            <GroupDescription>Annonseringstexter</GroupDescription>
+            <Level1Description>Avvikelse</Level1Description>
+            <Level2Description>Nationell</Level2Description>
+            <Level3Description>Brofel</Level3Description>
+            <Deleted>false</Deleted>
+            <ModifiedTime>2024-03-12T12:13:08.892Z</ModifiedTime>
+        </ReasonCode>
+        <ReasonCode>
+            <Code>ANA047</Code>
+            <GroupDescription>Annonseringstexter</GroupDescription>
+            <Level1Description>Avvikelse</Level1Description>
+            <Level2Description>Nationell</Level2Description>
+            <Level3Description>Sabotage</Level3Description>
+            <Deleted>false</Deleted>
+            <ModifiedTime>2024-03-12T12:13:09.486Z</ModifiedTime>
+        </ReasonCode>
+        <ReasonCode>
+            <Code>ANA017</Code>
+            <GroupDescription>Annonseringstexter</GroupDescription>
+            <Level1Description>Avvikelse</Level1Description>
+            <Level2Description>Nationell</Level2Description>
+            <Level3Description>Extra uppeh.</Level3Description>
+            <Deleted>false</Deleted>
+            <ModifiedTime>2024-03-12T12:13:09.001Z</ModifiedTime>
+        </ReasonCode>
+        <ReasonCode>
+            <Code>ANA003</Code>
+            <GroupDescription>Annonseringstexter</GroupDescription>
+            <Level1Description>Avvikelse</Level1Description>
+            <Level2Description>Nationell</Level2Description>
+            <Level3Description>Banarbete</Level3Description>
+            <Deleted>false</Deleted>
+            <ModifiedTime>2024-03-12T12:13:08.876Z</ModifiedTime>
+        </ReasonCode>
+        <ReasonCode>
+            <Code>ANA020</Code>
+            <GroupDescription>Annonseringstexter</GroupDescription>
+            <Level1Description>Avvikelse</Level1Description>
+            <Level2Description>Nationell</Level2Description>
+            <Level3Description>Direkt</Level3Description>
+            <Deleted>false</Deleted>
+            <ModifiedTime>2024-03-12T12:13:09.032Z</ModifiedTime>
+        </ReasonCode>
+        <ReasonCode>
+            <Code>ANA008</Code>
+            <GroupDescription>Annonseringstexter</GroupDescription>
+            <Level1Description>Avvikelse</Level1Description>
+            <Level2Description>Nationell</Level2Description>
+            <Level3Description>Avg. tidigast</Level3Description>
+            <Deleted>false</Deleted>
+            <ModifiedTime>2024-03-12T12:13:08.938Z</ModifiedTime>
+        </ReasonCode>
+        <ReasonCode>
+            <Code>ANA007</Code>
+            <GroupDescription>Annonseringstexter</GroupDescription>
+            <Level1Description>Avvikelse</Level1Description>
+            <Level2Description>Nationell</Level2Description>
+            <Level3Description>Buss ersätter</Level3Description>
+            <Deleted>false</Deleted>
+            <ModifiedTime>2024-03-12T12:13:08.907Z</ModifiedTime>
+        </ReasonCode>
+        <ReasonCode>
+            <Code>ANA051</Code>
+            <GroupDescription>Annonseringstexter</GroupDescription>
+            <Level1Description>Avvikelse</Level1Description>
+            <Level2Description>Nationell</Level2Description>
+            <Level3Description>Snö/Is</Level3Description>
+            <Deleted>false</Deleted>
+            <ModifiedTime>2024-03-12T12:13:09.533Z</ModifiedTime>
+        </ReasonCode>
+    </RESULT>
+</RESPONSE>

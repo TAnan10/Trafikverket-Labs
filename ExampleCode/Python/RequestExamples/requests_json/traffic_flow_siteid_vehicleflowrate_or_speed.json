@@ -1,0 +1,66 @@
+/* Request sent to the API */
+{
+    "request": "<REQUEST>\\n            <!-- Authentication information for accessing the API -->\\n            <LOGIN authenticationkey=\"d68896103a8141a186a79910d41ce683\"/>\\n            <!-- Query to retrieve TrafficFlow data with SiteId 132 and VehicleFlowRate 60 or AverageVehicleSpeed greater than 10 -->\\n            <QUERY objecttype=\"TrafficFlow\" namespace=\"road.trafficinfo\" schemaversion=\"1.5\" limit=\"10\">\\n                <FILTER>\\n                    <OR>\\n                        <AND>\\n                            <EQ name=\"SiteId\" value=\"132\" />\\n                            <EQ name=\"VehicleFlowRate\" value=\"60\" />\\n                        </AND>\\n                        <GT name=\"AverageVehicleSpeed\" value=\"10\" />\\n                    </OR>\\n                </FILTER>\\n                <INCLUDE>AverageVehicleSpeed</INCLUDE>\\n                <INCLUDE>SiteId</INCLUDE>\\n                <INCLUDE>VehicleFlowRate</INCLUDE>\\n            </QUERY>\\n        </REQUEST>"
+}
+
+/* Response received from the API */
+{
+    "RESPONSE": {
+        "RESULT": [
+            {
+                "TrafficFlow": [
+                    {
+                        "SiteId": 628,
+                        "VehicleFlowRate": 660,
+                        "AverageVehicleSpeed": 28.11
+                    },
+                    {
+                        "SiteId": 937,
+                        "VehicleFlowRate": 1260,
+                        "AverageVehicleSpeed": 35.18
+                    },
+                    {
+                        "SiteId": 589,
+                        "VehicleFlowRate": 1440,
+                        "AverageVehicleSpeed": 80.63
+                    },
+                    {
+                        "SiteId": 237,
+                        "VehicleFlowRate": 840,
+                        "AverageVehicleSpeed": 19.49
+                    },
+                    {
+                        "SiteId": 805,
+                        "VehicleFlowRate": 1320,
+                        "AverageVehicleSpeed": 29.81
+                    },
+                    {
+                        "SiteId": 501,
+                        "VehicleFlowRate": 960,
+                        "AverageVehicleSpeed": 91.31
+                    },
+                    {
+                        "SiteId": 519,
+                        "VehicleFlowRate": 540,
+                        "AverageVehicleSpeed": 78.48
+                    },
+                    {
+                        "SiteId": 421,
+                        "VehicleFlowRate": 1140,
+                        "AverageVehicleSpeed": 59.89
+                    },
+                    {
+                        "SiteId": 487,
+                        "VehicleFlowRate": 1200,
+                        "AverageVehicleSpeed": 63.36
+                    },
+                    {
+                        "SiteId": 226,
+                        "VehicleFlowRate": 1380,
+                        "AverageVehicleSpeed": 82.63
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,106 @@
+/* Request sent to the API */
+{
+    "request": "<REQUEST>\\n            <!-- Authentication information for accessing the API -->\\n            <LOGIN authenticationkey=\"d68896103a8141a186a79910d41ce683\"/>\\n            <!-- Query to retrieve ReasonCode data where Code starts with 'ANA' -->\\n            <QUERY objecttype=\"ReasonCode\" schemaversion=\"1\" limit=\"10\">\\n                <FILTER>\\n                    <LIKE name=\"Code\" value=\"/^ANA\"/>\\n                </FILTER>\\n            </QUERY>\\n        </REQUEST>"
+}
+
+/* Response received from the API */
+{
+    "RESPONSE": {
+        "RESULT": [
+            {
+                "ReasonCode": [
+                    {
+                        "Code": "ANA001",
+                        "GroupDescription": "Annonseringstexter",
+                        "Level1Description": "Avvikelse",
+                        "Level2Description": "Nationell",
+                        "Level3Description": "Ändrad väg",
+                        "Deleted": false,
+                        "ModifiedTime": "2024-03-12T12:13:08.860Z"
+                    },
+                    {
+                        "Code": "ANA002",
+                        "GroupDescription": "Annonseringstexter",
+                        "Level1Description": "Avvikelse",
+                        "Level2Description": "Nationell",
+                        "Level3Description": "Bakre tåg",
+                        "Deleted": false,
+                        "ModifiedTime": "2024-03-12T12:13:08.876Z"
+                    },
+                    {
+                        "Code": "ANA003",
+                        "GroupDescription": "Annonseringstexter",
+                        "Level1Description": "Avvikelse",
+                        "Level2Description": "Nationell",
+                        "Level3Description": "Banarbete",
+                        "Deleted": false,
+                        "ModifiedTime": "2024-03-12T12:13:08.876Z"
+                    },
+                    {
+                        "Code": "ANA004",
+                        "GroupDescription": "Annonseringstexter",
+                        "Level1Description": "Avvikelse",
+                        "Level2Description": "Nationell",
+                        "Level3Description": "Brofel",
+                        "Deleted": false,
+                        "ModifiedTime": "2024-03-12T12:13:08.892Z"
+                    },
+                    {
+                        "Code": "ANA005",
+                        "GroupDescription": "Annonseringstexter",
+                        "Level1Description": "Avvikelse",
+                        "Level2Description": "Nationell",
+                        "Level3Description": "Broöppning",
+                        "Deleted": false,
+                        "ModifiedTime": "2024-03-12T12:13:08.907Z"
+                    },
+                    {
+                        "Code": "ANA006",
+                        "GroupDescription": "Annonseringstexter",
+                        "Level1Description": "Avvikelse",
+                        "Level2Description": "Nationell",
+                        "Level3Description": "Buss",
+                        "Deleted": false,
+                        "ModifiedTime": "2024-03-12T12:13:08.907Z"
+                    },
+                    {
+                        "Code": "ANA007",
+                        "GroupDescription": "Annonseringstexter",
+                        "Level1Description": "Avvikelse",
+                        "Level2Description": "Nationell",
+                        "Level3Description": "Buss ersätter",
+                        "Deleted": false,
+                        "ModifiedTime": "2024-03-12T12:13:08.907Z"
+                    },
+                    {
+                        "Code": "ANA008",
+                        "GroupDescription": "Annonseringstexter",
+                        "Level1Description": "Avvikelse",
+                        "Level2Description": "Nationell",
+                        "Level3Description": "Avg. tidigast",
+                        "Deleted": false,
+                        "ModifiedTime": "2024-03-12T12:13:08.938Z"
+                    },
+                    {
+                        "Code": "ANA010",
+                        "GroupDescription": "Annonseringstexter",
+                        "Level1Description": "Avvikelse",
+                        "Level2Description": "Nationell",
+                        "Level3Description": "Direkttåg",
+                        "Deleted": false,
+                        "ModifiedTime": "2024-03-12T12:13:08.938Z"
+                    },
+                    {
+                        "Code": "ANA011",
+                        "GroupDescription": "Annonseringstexter",
+                        "Level1Description": "Avvikelse",
+                        "Level2Description": "Nationell",
+                        "Level3Description": "Djur i spår",
+                        "Deleted": false,
+                        "ModifiedTime": "2024-03-12T12:13:08.954Z"
+                    }
+                ]
+            }
+        ]
+    }
+}

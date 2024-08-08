@@ -1,0 +1,235 @@
+/* Request sent to the API */
+{
+    "request": "<REQUEST>\\n            <!-- Authentication information for accessing the API -->\\n            <LOGIN authenticationkey=\"d68896103a8141a186a79910d41ce683\"/>\\n            <!-- Query to retrieve PavementData with Length less than 600 and County not equal to 12 -->\\n            <QUERY objecttype=\"PavementData\" namespace=\"road.pavementinfo\" schemaversion=\"1\" limit=\"10\">\\n                <FILTER>\\n                    <AND>\\n                        <LT name=\"Length\" value=\"600\" />\\n                        <NE name=\"County\" value=\"12\" />\\n                    </AND>\\n                </FILTER>\\n            </QUERY>\\n        </REQUEST>"
+}
+
+/* Response received from the API */
+{
+    "RESPONSE": {
+        "RESULT": [
+            {
+                "PavementData": [
+                    {
+                        "County": 6,
+                        "RoadMainNumber": 575,
+                        "RoadSubNumber": 0,
+                        "Direction": {
+                            "Code": 1,
+                            "Value": "Med"
+                        },
+                        "Lane": 10,
+                        "StartContinuousLength": 0,
+                        "EndContinuousLength": 1,
+                        "Length": 59,
+                        "PavementDate": "1974-01-01T00:00:00.000+01:00",
+                        "PavementType": "MABT",
+                        "MaxStoneSize": 12,
+                        "Thickness": 24,
+                        "Coverage": "Heltäckande",
+                        "TimeStamp": "2024-08-08T00:51:13.655+02:00",
+                        "ModifiedTime": "2024-08-07T22:57:16.518Z",
+                        "Deleted": false
+                    },
+                    {
+                        "County": 6,
+                        "RoadMainNumber": 988,
+                        "RoadSubNumber": 0,
+                        "Direction": {
+                            "Code": 1,
+                            "Value": "Med"
+                        },
+                        "Lane": 10,
+                        "StartContinuousLength": 0,
+                        "EndContinuousLength": 1,
+                        "Length": 350,
+                        "PavementDate": "1978-06-14T00:00:00.000+02:00",
+                        "PavementType": "OG - Oljegrus",
+                        "Thickness": 24,
+                        "Coverage": "Heltäckande",
+                        "TimeStamp": "2024-08-07T19:30:09.541+02:00",
+                        "ModifiedTime": "2024-08-07T17:37:17.775Z",
+                        "Deleted": false
+                    },
+                    {
+                        "County": 6,
+                        "RoadMainNumber": 692,
+                        "RoadSubNumber": 0,
+                        "Direction": {
+                            "Code": 1,
+                            "Value": "Med"
+                        },
+                        "Lane": 10,
+                        "StartContinuousLength": 0,
+                        "EndContinuousLength": 2,
+                        "Length": 483,
+                        "PavementDate": "1969-06-20T00:00:00.000+02:00",
+                        "PavementType": "ALBT - Asfaltlösningsbetong, tät",
+                        "MaxStoneSize": 12,
+                        "Thickness": 24,
+                        "Coverage": "Heltäckande",
+                        "TimeStamp": "2024-08-08T00:52:06.192+02:00",
+                        "ModifiedTime": "2024-08-07T22:57:15.483Z",
+                        "Deleted": false
+                    },
+                    {
+                        "County": 6,
+                        "RoadMainNumber": 989,
+                        "RoadSubNumber": 0,
+                        "Direction": {
+                            "Code": 1,
+                            "Value": "Med"
+                        },
+                        "Lane": 10,
+                        "StartContinuousLength": 0,
+                        "EndContinuousLength": 3,
+                        "Length": 494,
+                        "PavementDate": "1980-06-04T00:00:00.000+02:00",
+                        "PavementType": "MABT",
+                        "MaxStoneSize": 16,
+                        "Thickness": 40,
+                        "Coverage": "Heltäckande",
+                        "TimeStamp": "2024-08-06T19:34:51.258+02:00",
+                        "ModifiedTime": "2024-08-06T17:37:02.581Z",
+                        "Deleted": false
+                    },
+                    {
+                        "County": 6,
+                        "RoadMainNumber": 884,
+                        "RoadSubNumber": 0,
+                        "Direction": {
+                            "Code": 1,
+                            "Value": "Med"
+                        },
+                        "Lane": 10,
+                        "StartContinuousLength": 0,
+                        "EndContinuousLength": 4,
+                        "Length": 130,
+                        "PavementDate": "2006-06-01T00:00:00.000+02:00",
+                        "PavementType": "JIM - Justering med indränkt makadam",
+                        "TreatmentCategory": "Tankbeläggning",
+                        "MaxStoneSize": 22,
+                        "Contractor": "VV Produktion",
+                        "Binder": "BE 60M V6000",
+                        "Coverage": "Fläckvis",
+                        "TimeStamp": "2024-08-08T00:53:06.840+02:00",
+                        "ModifiedTime": "2024-08-07T22:57:14.127Z",
+                        "Deleted": false
+                    },
+                    {
+                        "County": 6,
+                        "RoadMainNumber": 787,
+                        "RoadSubNumber": 0,
+                        "Direction": {
+                            "Code": 1,
+                            "Value": "Med"
+                        },
+                        "Lane": 10,
+                        "StartContinuousLength": 0,
+                        "EndContinuousLength": 9,
+                        "Length": 485,
+                        "PavementDate": "2006-09-30T00:00:00.000+02:00",
+                        "PavementType": "IMT - Indränkt makadam, tät",
+                        "TreatmentCategory": "Tankbeläggning",
+                        "MaxStoneSize": 22,
+                        "Thickness": 40,
+                        "Contractor": "Skanska",
+                        "Binder": "BE 65R 160/220",
+                        "Coverage": "Heltäckande",
+                        "TimeStamp": "2024-08-07T19:26:02.133+02:00",
+                        "ModifiedTime": "2024-08-07T17:30:09.861Z",
+                        "Deleted": false
+                    },
+                    {
+                        "County": 6,
+                        "RoadMainNumber": 529,
+                        "RoadSubNumber": 0,
+                        "Direction": {
+                            "Code": 1,
+                            "Value": "Med"
+                        },
+                        "Lane": 10,
+                        "StartContinuousLength": 0,
+                        "EndContinuousLength": 10,
+                        "Length": 10,
+                        "PavementDate": "1996-01-01T00:00:00.000+01:00",
+                        "PavementType": "Y1G - Enkel ytbehandling på grusunderlag",
+                        "TreatmentCategory": "Tankbeläggning",
+                        "MaxStoneSize": 16,
+                        "Thickness": 0,
+                        "Coverage": "Heltäckande",
+                        "TimeStamp": "2024-08-08T00:19:09.641+02:00",
+                        "ModifiedTime": "2024-08-07T22:22:10.338Z",
+                        "Deleted": false
+                    },
+                    {
+                        "County": 6,
+                        "RoadMainNumber": 545,
+                        "RoadSubNumber": 1,
+                        "Direction": {
+                            "Code": 1,
+                            "Value": "Med"
+                        },
+                        "Lane": 10,
+                        "StartContinuousLength": 0,
+                        "EndContinuousLength": 14,
+                        "Length": 499,
+                        "PavementDate": "1976-01-01T00:00:00.000+01:00",
+                        "PavementType": "OG - Oljegrus",
+                        "MaxStoneSize": 18,
+                        "Thickness": 40,
+                        "Coverage": "Heltäckande",
+                        "TimeStamp": "2024-08-08T00:51:03.107+02:00",
+                        "ModifiedTime": "2024-08-07T22:57:17.223Z",
+                        "Deleted": false
+                    },
+                    {
+                        "County": 6,
+                        "RoadMainNumber": 40,
+                        "RoadSubNumber": 0,
+                        "Direction": {
+                            "Code": 1,
+                            "Value": "Med"
+                        },
+                        "Lane": 10,
+                        "StartContinuousLength": 0,
+                        "EndContinuousLength": 16,
+                        "Length": 16,
+                        "PavementDate": "2012-08-30T00:00:00.000+02:00",
+                        "PavementType": "TSK - Tunnskiktsbeläggning kombination",
+                        "TreatmentCategory": "Asfaltbetong",
+                        "MaxStoneSize": 16,
+                        "Thickness": 20,
+                        "Contractor": "NCC",
+                        "BallMillValue": 7,
+                        "Binder": "B 70/100",
+                        "Coverage": "Heltäckande",
+                        "TimeStamp": "2024-08-07T23:22:47.054+02:00",
+                        "ModifiedTime": "2024-08-07T21:35:07.903Z",
+                        "Deleted": false
+                    },
+                    {
+                        "County": 6,
+                        "RoadMainNumber": 635,
+                        "RoadSubNumber": 0,
+                        "Direction": {
+                            "Code": 1,
+                            "Value": "Med"
+                        },
+                        "Lane": 10,
+                        "StartContinuousLength": 0,
+                        "EndContinuousLength": 16,
+                        "Length": 16,
+                        "PavementDate": "1986-06-30T00:00:00.000+02:00",
+                        "PavementType": "OG - Oljegrus",
+                        "MaxStoneSize": 18,
+                        "Thickness": 40,
+                        "Coverage": "Heltäckande",
+                        "TimeStamp": "2024-08-08T00:51:33.525+02:00",
+                        "ModifiedTime": "2024-08-07T22:57:16.677Z",
+                        "Deleted": false
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,70 @@
+<!-- Request sent to the API -->
+<?xml version="1.0" ?>
+<REQUEST>
+    <!-- Authentication information for accessing the API -->
+    <LOGIN authenticationkey="d68896103a8141a186a79910d41ce683"/>
+    <!-- Query to retrieve TrafficFlow data with AverageVehicleSpeed, SiteId, and VehicleFlowRate -->
+    <QUERY objecttype="TrafficFlow" namespace="road.trafficinfo" schemaversion="1.5" limit="10">
+        <FILTER/>
+        <INCLUDE>AverageVehicleSpeed</INCLUDE>
+        <INCLUDE>SiteId</INCLUDE>
+        <INCLUDE>VehicleFlowRate</INCLUDE>
+    </QUERY>
+</REQUEST>
+
+<!-- Response received from the API -->
+<?xml version="1.0" ?>
+<RESPONSE>
+    <RESULT>
+        <TrafficFlow>
+            <SiteId>40</SiteId>
+            <VehicleFlowRate>1200</VehicleFlowRate>
+            <AverageVehicleSpeed>58.68</AverageVehicleSpeed>
+        </TrafficFlow>
+        <TrafficFlow>
+            <SiteId>4306</SiteId>
+            <VehicleFlowRate>900</VehicleFlowRate>
+            <AverageVehicleSpeed>69.07</AverageVehicleSpeed>
+        </TrafficFlow>
+        <TrafficFlow>
+            <SiteId>861</SiteId>
+            <VehicleFlowRate>1140</VehicleFlowRate>
+            <AverageVehicleSpeed>57.47</AverageVehicleSpeed>
+        </TrafficFlow>
+        <TrafficFlow>
+            <SiteId>1471</SiteId>
+            <VehicleFlowRate>960</VehicleFlowRate>
+            <AverageVehicleSpeed>83.77</AverageVehicleSpeed>
+        </TrafficFlow>
+        <TrafficFlow>
+            <SiteId>174</SiteId>
+            <VehicleFlowRate>900</VehicleFlowRate>
+            <AverageVehicleSpeed>85.63</AverageVehicleSpeed>
+        </TrafficFlow>
+        <TrafficFlow>
+            <SiteId>1183</SiteId>
+            <VehicleFlowRate>300</VehicleFlowRate>
+            <AverageVehicleSpeed>52.2</AverageVehicleSpeed>
+        </TrafficFlow>
+        <TrafficFlow>
+            <SiteId>661</SiteId>
+            <VehicleFlowRate>1380</VehicleFlowRate>
+            <AverageVehicleSpeed>55.17</AverageVehicleSpeed>
+        </TrafficFlow>
+        <TrafficFlow>
+            <SiteId>1155</SiteId>
+            <VehicleFlowRate>360</VehicleFlowRate>
+            <AverageVehicleSpeed>70.5</AverageVehicleSpeed>
+        </TrafficFlow>
+        <TrafficFlow>
+            <SiteId>797</SiteId>
+            <VehicleFlowRate>1260</VehicleFlowRate>
+            <AverageVehicleSpeed>27.17</AverageVehicleSpeed>
+        </TrafficFlow>
+        <TrafficFlow>
+            <SiteId>614</SiteId>
+            <VehicleFlowRate>1500</VehicleFlowRate>
+            <AverageVehicleSpeed>61.65</AverageVehicleSpeed>
+        </TrafficFlow>
+    </RESULT>
+</RESPONSE>

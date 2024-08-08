@@ -1,0 +1,36 @@
+/* Request sent to the API */
+{
+    "request": "<REQUEST>\\n            <!-- Authentication information for accessing the API -->\\n            <LOGIN authenticationkey=\"d68896103a8141a186a79910d41ce683\"/>\\n            <!-- Query to retrieve TrainPosition data for the trains with advertisedtrainnumber 123 -->\\n            <QUERY objecttype=\"TrainPosition\" namespace=\"järnväg.trafikinfo\" schemaversion=\"1.1\">\\n                <FILTER>\\n                    <EQ name=\"Train.AdvertisedTrainNumber\" value=\"123\"/>\\n                </FILTER>\\n            </QUERY>\\n        </REQUEST>"
+}
+
+/* Response received from the API */
+{
+    "RESPONSE": {
+        "RESULT": [
+            {
+                "TrainPosition": [
+                    {
+                        "Train": {
+                            "OperationalTrainNumber": "123",
+                            "OperationalTrainDepartureDate": "2024-08-08T00:00:00.000+02:00",
+                            "JourneyPlanNumber": "3033",
+                            "JourneyPlanDepartureDate": "2024-08-08T00:00:00.000+02:00",
+                            "AdvertisedTrainNumber": "123"
+                        },
+                        "Position": {
+                            "SWEREF99TM": "POINT (505958 6547400)",
+                            "WGS84": "POINT (15.103902178621638 59.06594770323939)"
+                        },
+                        "TimeStamp": "2024-08-08T09:44:29.059+02:00",
+                        "Status": {
+                            "Active": false
+                        },
+                        "Bearing": 252,
+                        "ModifiedTime": "2024-08-08T07:44:29.547Z",
+                        "Deleted": false
+                    }
+                ]
+            }
+        ]
+    }
+}
