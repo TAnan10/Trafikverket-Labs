@@ -1,7 +1,7 @@
-const express = require('express');
-const http = require('http');
-const WebSocket = require('ws');
-const axios = require('axios');
+const express = require("express");
+const http = require("http");
+const WebSocket = require("ws");
+const axios = require("axios");
 
 const API_KEY = "";
 
@@ -9,11 +9,11 @@ const app = express();
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 
-app.use(express.static('public'));
+app.use(express.static("public"));
 
-wss.on('connection', ws => {
-  console.log('Client connected');
-  ws.on('close', () => console.log('Client disconnected'));
+wss.on("connection", (ws) => {
+  console.log("Client connected");
+  ws.on("close", () => console.log("Client disconnected"));
 });
 
 const getTrainPositions = async () => {
@@ -35,33 +35,37 @@ const getTrainPositions = async () => {
   `;
 
   try {
-    const response = await axios.post('https://api.trafikinfo.trafikverket.se/v2/data.json', requestXml, {
-      headers: { 'Content-Type': 'text/xml' }
-    });
+    const response = await axios.post(
+      "https://api.trafikinfo.trafikverket.se/v2/data.json",
+      requestXml,
+      {
+        headers: { "Content-Type": "text/xml" },
+      }
+    );
 
     const positions = response.data.RESPONSE.RESULT[0].TrainPosition || [];
-    console.log('Fetched positions:', positions);
+    console.log("Fetched positions:", positions);
     return positions;
   } catch (error) {
-    console.error('Error fetching train positions:', error);
+    console.error("Error fetching train positions:", error);
     return [];
   }
 };
 
 const broadcastTrainPositions = async () => {
   const positions = await getTrainPositions();
-  const formattedPositions = positions.map(pos => {
+  const formattedPositions = positions.map((pos) => {
     const coords = pos.Position.WGS84.match(/POINT \(([^ ]+) ([^ ]+)\)/);
     return {
       trainNumber: pos.Train.OperationalTrainNumber,
       latitude: parseFloat(coords[2]),
-      longitude: parseFloat(coords[1])
+      longitude: parseFloat(coords[1]),
     };
   });
 
-  console.log('Broadcasting positions:', formattedPositions);
+  console.log("Broadcasting positions:", formattedPositions);
 
-  wss.clients.forEach(client => {
+  wss.clients.forEach((client) => {
     if (client.readyState === WebSocket.OPEN) {
       client.send(JSON.stringify(formattedPositions));
     }
@@ -70,4 +74,4 @@ const broadcastTrainPositions = async () => {
 
 setInterval(broadcastTrainPositions, 500);
 
-server.listen(3000, () => console.log('Server started on port 3000'));
+server.listen(3000, () => console.log("Server started on port 3000"));
