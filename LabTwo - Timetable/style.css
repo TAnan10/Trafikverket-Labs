@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Center container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px; /* Adjust this value to position the container vertically */
+}
+
+/* Table styling */
+#train-table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#train-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+#train-table th,
+#train-table td {
+  padding: 12px 15px;
+}
+
+#train-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* Every other row(even row) will be grey color */
+#train-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3f3;
+}
+
+#train-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
