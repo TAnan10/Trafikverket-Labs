@@ -4,68 +4,16 @@
   box-sizing: border-box;
 }
 
-/*Search bar*/
-form {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: all 1s;
-  width: 50px;
-  height: 50px;
-  background: white;
-  box-sizing: border-box;
-  border-radius: 25px;
-  border: 4px solid white;
-  padding: 5px;
-  margin-top: 100px;
+/* Center container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px; /* Adjust this value to position the container vertically */
 }
 
-input {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 42.5px;
-  line-height: 30px;
-  outline: 0;
-  border: 0;
-  display: none;
-  font-size: 1em;
-  border-radius: 20px;
-  border: 1px solid #009879;
-  padding: 0 20px;
-}
-
-.fa {
-  box-sizing: border-box;
-  padding: 10px;
-  width: 42.5px;
-  height: 42.5px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-radius: 50%;
-  color: #009879;
-  text-align: center;
-  font-size: 1.2em;
-  transform: all 1s;
-}
-
-form:hover {
-  width: 300px;
-  cursor: pointer;
-}
-
-form:hover input {
-  display: block;
-}
-
-form:hover .fa {
-  background-color: #009879;
-  color: white;
-}
-
+/* Table styling */
 #train-table {
   border-collapse: collapse;
   margin: 0 auto;
@@ -90,7 +38,7 @@ form:hover .fa {
   border-bottom: 1px solid #dddddd;
 }
 
-/* Every other row(even row) will be grey color*/
+/* Every other row(even row) will be grey color */
 #train-table tbody tr:nth-of-type(even) {
   background-color: #f3f3f3f3;
 }
