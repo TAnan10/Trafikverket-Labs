@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/fzaf0pEWc8=",
+  "dgSpecHash": "1AdM1m32W6o=",
   "success": true,
-  "projectFilePath": "/Users/erikolofsson/Desktop/github_trv/Trafikverket-Labs/ExampleCode/C#/Streaming/Streaming.csproj",
-  "expectedPackageFiles": [
-    "/Users/erikolofsson/.nuget/packages/microsoft.netcore.app.ref/8.0.5/microsoft.netcore.app.ref.8.0.5.nupkg.sha512",
-    "/Users/erikolofsson/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.5/microsoft.aspnetcore.app.ref.8.0.5.nupkg.sha512",
-    "/Users/erikolofsson/.nuget/packages/microsoft.netcore.app.host.osx-x64/8.0.5/microsoft.netcore.app.host.osx-x64.8.0.5.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\123\\Desktop\\Github\\Trafikverket-Labs\\ExampleCode\\C#\\Streaming\\Streaming.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
