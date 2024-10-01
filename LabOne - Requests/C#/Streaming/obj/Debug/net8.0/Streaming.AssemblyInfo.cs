@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Streaming")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD:LabOne - Requests/C#/Streaming/obj/Debug/net8.0/Streaming.AssemblyInfo.cs
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+345e8fa49da2ec71cb7d2bd5e29367a59efe97d0")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c615b583746a2755a9f97f625b12db575c5548d0")]
+>>>>>>> 6d58246033ce90025dba43a28fe8a4f2c8843b48:ExampleCode/C#/Streaming/obj/Debug/net8.0/Streaming.AssemblyInfo.cs
 [assembly: System.Reflection.AssemblyProductAttribute("Streaming")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Streaming")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
