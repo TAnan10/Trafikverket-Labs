@@ -4,19 +4,19 @@ import csv
 def gatherTrafficData():
 
   url = "https://api.trafikinfo.trafikverket.se/v2/data.json"
-  authentication_key = "d68896103a8141a186a79910d41ce683"
+  API_KEY = "Replace_with_your_own_key"
 
   request_body = """
-       <REQUEST>
-  <LOGIN authenticationkey="d68896103a8141a186a79910d41ce683"/>
-  <QUERY objecttype="TrafficFlow" namespace="road.trafficinfo" schemaversion="1.5" limit="10000">
-    <FILTER>
-    </FILTER>
-    <INCLUDE>VehicleFlowRate</INCLUDE>
-    <INCLUDE>MeasurementTime</INCLUDE>
-  </QUERY>
-</REQUEST>
-    """.format(authentication_key=authentication_key)
+  <REQUEST>
+  <LOGIN authenticationkey="{API_KEY}"/>
+    <QUERY objecttype="TrafficFlow" namespace="road.trafficinfo" schemaversion="1.5" limit="10000">
+      <FILTER>
+      </FILTER>
+      <INCLUDE>VehicleFlowRate</INCLUDE>
+      <INCLUDE>MeasurementTime</INCLUDE>
+    </QUERY>
+  </REQUEST>
+    """.format(API_KEY=API_KEY)
 
   headers = {
         "Content-Type": "application/xml"

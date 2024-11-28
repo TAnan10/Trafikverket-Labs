@@ -100,7 +100,7 @@ def plot_map(origin_point, target_points, longitudes, latitudes):
     # Style the map layout
     fig.update_layout(
         mapbox_style="light", 
-        mapbox_accesstoken="pk.eyJ1IjoiZXJrYW40ODEwIiwiYSI6ImNseWMybDk4czBlemcyaXNnY3YxcGN3NWMifQ.NgYCVEbVBHPBNYGGRg28Fg", 
+        mapbox_accesstoken="" , #Replace with your token 
         legend=dict(yanchor="top", y=1, xanchor="left", x=0.83), #x 0.9
         title="<span style='font-size: 32px;'><b>The Shortest Paths Dijkstra Map</b></span>",
         font_family="Times New Roman",

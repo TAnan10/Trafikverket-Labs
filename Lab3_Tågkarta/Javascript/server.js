@@ -3,7 +3,7 @@ const http = require("http");
 const WebSocket = require("ws");
 const axios = require("axios");
 
-const API_KEY = "";
+const API_KEY = "Replace_with_your_own_key";
 
 const app = express();
 const server = http.createServer(app);

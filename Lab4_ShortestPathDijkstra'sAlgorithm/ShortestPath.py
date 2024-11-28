@@ -7,11 +7,11 @@ from typing import List, Dict
 
 def fetch_traffic_data():
     url = "https://api.trafikinfo.trafikverket.se/v2/data.json"
-    authentication_key = "d68896103a8141a186a79910d41ce683"
+    API_KEY = "Replace_with_your_own_key"
 
     request_body = """
     <REQUEST>
-        <LOGIN authenticationkey="d68896103a8141a186a79910d41ce683"/>
+        <LOGIN authenticationkey="{API_KEY}"/>
         <QUERY objecttype="TrainAnnouncement" orderby="AdvertisedTimeAtLocation" schemaversion="1.9" limit="1000">
         <FILTER>
              <OR>
@@ -36,7 +36,7 @@ def fetch_traffic_data():
         <INCLUDE>AdvertisedTrainIdent</INCLUDE>
         </QUERY>
     </REQUEST>
-    """.format(authentication_key=authentication_key)
+    """.format(API_KEY=API_KEY)
 
     headers = {
         "Content-Type": "application/xml"

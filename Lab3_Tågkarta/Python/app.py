@@ -8,7 +8,7 @@ import time
 app = Flask(__name__)
 logging.basicConfig(level=logging.INFO)  # Adjust log level as needed
 
-API_KEY = "02a306c35ef0407ba3e61c8acfa215e3"
+API_KEY = "Replace_with_your_own_key"
 
 def get_sse_url():
     request_xml_trainPosition = f"""
