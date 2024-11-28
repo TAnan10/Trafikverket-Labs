@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net.Http;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
@@ -19,10 +20,16 @@ namespace OpenAPISampleNET
 
                 try
                 {
+                    string API_KEY = LoadAPI_KEY();
+                    if (string.IsNullOrEmpty(API_KEY))
+                    {
+                        Console.WriteLine("API key not found. Please ensure secrets.json is configured correctly.");
+                        return;
+                    }
                     // API server URL
                     var address = new Uri("https://api.trafikinfo.trafikverket.se/v2/data.xml");
                     var requestBody = @"<REQUEST>
-                                            <LOGIN authenticationkey='02a306c35ef0407ba3e61c8acfa215e3'/>
+                                            <LOGIN authenticationkey='{API_KEY}'/>
                                             <QUERY objecttype='TrainAnnouncement' schemaversion='1.9' limit='10'>
                                                 <FILTER></FILTER>
                                             </QUERY>
@@ -54,6 +61,28 @@ namespace OpenAPISampleNET
                     Console.WriteLine($"An error occurred: {ex.Message}. Press 'X' to exit.");
                 }
             }
+        }
+
+        private static string LoadAPI_KEY()
+        {
+            try
+            {
+                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "secrets.json");
+                if (File.Exists(filePath))
+                {
+                    string jsonContent = File.ReadAllText(filePath);
+                    var jsonDocument = JsonDocument.Parse(jsonContent);
+                    if (jsonDocument.RootElement.TryGetProperty("API_KEY", out var apiKeyProperty))
+                    {
+                        return apiKeyProperty.GetString();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error reading secrets.json: {ex.Message}");
+            }
+            return null;
         }
 
         private static async Task UploadStringAsync(HttpClient httpClient, Uri address, string requestBody, System.Threading.CancellationToken cancellationToken)

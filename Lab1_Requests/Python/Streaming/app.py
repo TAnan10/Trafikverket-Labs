@@ -3,7 +3,7 @@ import asyncio
 import json
 from datetime import datetime, timedelta
 
-authentication_key = "d68896103a8141a186a79910d41ce683"  # Replace with your real key
+authentication_key = "replace_with_your_own_key"  # Replace with your real key
 request_xml = f"""
 <REQUEST>
     <LOGIN authenticationkey="{authentication_key}" />

@@ -9,7 +9,7 @@ def fetch_data():
         "Content-Type": "text/xml"
     }
     request_body = '''<REQUEST>
-                          <LOGIN authenticationkey="02a306c35ef0407ba3e61c8acfa215e3"/>
+                          <LOGIN authenticationkey="demokey"/>
                           <QUERY objecttype="TrainAnnouncement" schemaversion="1.9" limit="10">
                               <FILTER></FILTER>
                           </QUERY>
