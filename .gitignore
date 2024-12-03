@@ -15,7 +15,6 @@ venv/
 *.o
 
 # Environment variables
-.env
 
 # IDE/editor configurations
 .vscode/
