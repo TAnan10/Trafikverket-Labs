@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRVGUESSER</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8SlkiK7_ED8FzCeMR4z5GlynoPbP0VZY&libraries=geometry" loading="lazy"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="top-bar">
+        <div id="guess-counter">1/5</div>
+        <div id="title">TRVGUESSER</div>
+        <div id="total-score">Poäng: 0</div>
+    </div>
+    <div id="street-view" style="width: 50%; height: 100vh; float: left;"></div>
+    <div id="guess-map" style="width: 50%; height: 100vh; float: left; position: relative;"></div>
+    <button id="confirm-button">Bekräfta</button>
+    <div id="scoreboard" style="display: none;">Poäng: <span id="score">0</span></div>
+    <button id="guess-button" style="display: none;">Gissa</button>
+    <div id="highscore" style="display: none;">Highscore:
+        <ul id="highscore-list"></ul>
+    </div>
+</body>
+</html>

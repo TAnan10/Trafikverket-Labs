@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+#top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #ff0000;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 800;
+}
+
+#guess-counter {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+}
+
+#total-score {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+#street-view {
+    width: 50%;
+    height: calc(100vh - 50px);
+    float: left;
+    margin-top: 50px;
+}
+
+#guess-map {
+    position: relative;
+    width: 50%;
+    height: calc(100vh - 50px);
+    float: left;
+    margin-top: 50px;
+}
+
+#confirm-button {
+    display: none;
+    position: absolute;
+    bottom: 20px;  /* Placera knappen längst ner */
+    left: 75%;     /* Flytta knappen till mitten av #guess-map */
+    transform: translateX(-50%);  /* Justera så att knappen verkligen är i mitten */
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+#confirm-button:hover {
+    background-color: #45a049;
+}

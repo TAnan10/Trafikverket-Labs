@@ -1,0 +1,26 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+venv/
+
+# Compiled files
+*.class
+*.pyc
+*.o
+
+# Environment variables
+.env
+
+# IDE/editor configurations
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
