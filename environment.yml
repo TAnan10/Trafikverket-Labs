@@ -4,17 +4,8 @@ channels:
 dependencies:
   - python=3.10
   - flask
-  - requests
+  - matplotlib
   - numpy
   - pandas
-  - time
-  - logging
-  - folium
-  - json
-  - aiohttp
-  - asyncio
-  - datetime
-  - heapq
-  - csv
-  - tkinter
-  - matplotlib.pyplot
+  - requests
+
