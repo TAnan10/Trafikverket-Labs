@@ -1,0 +1,20 @@
+name: trafikverket_labs_env
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - flask
+  - requests
+  - numpy
+  - pandas
+  - time
+  - logging
+  - folium
+  - json
+  - aiohttp
+  - asyncio
+  - datetime
+  - heapq
+  - csv
+  - tkinter
+  - matplotlib.pyplot
