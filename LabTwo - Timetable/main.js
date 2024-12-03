@@ -21,6 +21,8 @@ async function fetchTrainData(locationCity) {
     </REQUEST>
   `;
 
+  // What up boys?
+
   const response = await fetch(url, {
     method: "POST",
     headers: {

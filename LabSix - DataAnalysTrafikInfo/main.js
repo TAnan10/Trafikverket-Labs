@@ -53,6 +53,7 @@ async function initMap() {
   const restPlaceIcon = "picnic.png";
   const trafficCamera = "traffic-lights.png";
 
+  /*
   // Add Rest Place Markers
   const parkingLocations = data.RESPONSE.RESULT[0].Parking;
   parkingLocations.forEach((location) => {
@@ -60,6 +61,7 @@ async function initMap() {
     const { lat, lng } = parsePoint(coordinates);
     addMarker({ lat, lng }, restPlaceIcon);
   });
+  */
 
   // Add camera markers
   const cameraLocations = data.RESPONSE.RESULT[1].Camera;
@@ -139,6 +141,9 @@ function displayRoute(directionsService, directionsRenderer, cameraLocations) {
                 `  Path segment at: ${pathCoord.lat}, ${pathCoord.lng} (Step: ${pathCoord.stepIndex}, Path: ${pathCoord.pathIndex})`
               );
               addMarker({ lat, lng }, newTrafficCam);
+              document.getElementById(
+                "cameraCount"
+              ).innerText = `Number of cameras on the route: ${camerasOnRouteCount}`;
             }
           }
         });
@@ -185,6 +190,7 @@ function calculateDistance(lat1, lon1, lat2, lon2) {
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 
   const distance = R * c; // Distance in meters
+
   return distance;
 }
 
