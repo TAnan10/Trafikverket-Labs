@@ -1,0 +1,8 @@
+.train-list {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  padding: 16px;
+  background-color: #ffffff;
+}

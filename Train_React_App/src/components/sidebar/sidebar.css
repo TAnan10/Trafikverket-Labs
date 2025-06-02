@@ -1,0 +1,53 @@
+.sidebar {
+  width: 250px;
+  background-color: #f7f7f7;
+  color: #7e8da2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid #e8e8e8;
+}
+
+.logo {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  color: black;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 1em 0;
+}
+
+.support-settings {
+  margin-top: auto;
+}
+
+.support,
+.settings {
+  margin: 1em 0;
+}
+
+.miniProfile {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.miniProfile p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.miniProfile div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
