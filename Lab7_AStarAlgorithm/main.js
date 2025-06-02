@@ -3,7 +3,7 @@ let mainTrainStationData = [];
 // Retrieve train station coordinates of Skåne county
 async function GetTrainStationCoordinates() {
   const url = "https://api.trafikinfo.trafikverket.se/v2/data.json";
-  const API_KEY = "Replace_with_your_own_key";
+  const API_KEY = Trafikverket_API_KEY;
   const requestBody = `
     <REQUEST>
     <LOGIN authenticationkey="${API_KEY}"/>

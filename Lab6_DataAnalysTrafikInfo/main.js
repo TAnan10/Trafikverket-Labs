@@ -1,6 +1,6 @@
 async function TrafficData() {
   const url = "https://api.trafikinfo.trafikverket.se/v2/data.json";
-  const authenticationKey = "Replace_with_your_own_key";
+  const authenticationKey = Trafikverket_API_KEY;
   const requestBody = `
   <REQUEST>
   <LOGIN authenticationkey="${authenticationKey}"/>
@@ -51,7 +51,7 @@ async function initMap() {
 
   // Define icons for different types of data
   const restPlaceIcon = "picnic.png";
-  const trafficCamera = "traffic-lights.png";
+  const trafficCamera = "./Images/traffic-lights.png";
 
   /*
   // Add Rest Place Markers
@@ -84,7 +84,7 @@ function displayRoute(directionsService, directionsRenderer, cameraLocations) {
   const distanceThreshold = 50; // Distance threshold in meters
   let camerasOnRouteCount = 0;
   const matchedCameras = new Set();
-  const newTrafficCam = "traffic-light (1).png";
+  const newTrafficCam = "./Images/traffic-light (1).png";
 
   directionsService
     .route({

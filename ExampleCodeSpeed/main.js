@@ -1,6 +1,6 @@
 async function TrafficData() {
   const url = "https://api.trafikinfo.trafikverket.se/v2/data.json";
-  const authenticationKey = "Replace_with_your_own_key";
+  const authenticationKey = Trafikverket_API_KEY;
   const requestBody = `
   <REQUEST>
   <LOGIN authenticationkey="${authenticationKey}"/>
